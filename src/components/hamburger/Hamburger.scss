@@ -1,0 +1,136 @@
+@mixin menu-item-drop {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+@mixin dropdown-toggle($top) {
+  display: none;
+  position: absolute;
+  top: $top;
+  right: 150px;
+  color: black;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 30px;
+  height: 27px;
+}
+button:focus {
+  outline: none;
+  transition: none;
+  background: transparent;
+  border: none;
+  box-shadow: none !important;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 13px !important;
+  left: 16px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #e26777 0% 0% no-repeat padding-box;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  bottom: 0;
+  height: 85% !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden !important;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: white;
+}
+
+/* Wrapper for item list */
+a {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.bm-item-list {
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 68%;
+  margin-top: 20px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 1.6rem;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #186a7b;
+  opacity: 1;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: transparent !important;
+}
+
+.dropdown__toggle {
+  @include dropdown-toggle(10px);
+}
+
+div {
+  border: none;
+  outline: none;
+}
+
+.menu-item__drop {
+  @include menu-item-drop;
+  & > img {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+  }
+}
+
+.menu-item__drop:hover .dropdown__toggle {
+  display: block;
+}
+
+.menu-item__drop:active .dropdown__toggle {
+  display: block;
+}
+.menu-item__drop:focus .dropdown__toggle {
+  display: block;
+}

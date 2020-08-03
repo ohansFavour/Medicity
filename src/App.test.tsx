@@ -1,9 +1,16 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from 'react'
+import { shallow } from 'enzyme'
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+import App from './App'
+
+describe('App Component', () => {
+  const component = shallow(<App />)
+  test('renders component', () => {
+    expect(component).toMatchSnapshot()
+  })
+
+  it('renders div with classname App', () => {
+    const container = component.find('.App')
+    expect(container.length).toBe(1)
+  })
+})

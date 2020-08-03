@@ -1,0 +1,80 @@
+@import '../../components/hamburger/Hamburger.scss';
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.header__logo {
+  img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.header__items {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header__main {
+    display: flex;
+    flex-basis: 80%;
+  }
+  .header__items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font: Bold 20px/21px Raleway;
+    letter-spacing: 0px;
+    color: #186a7b;
+    opacity: 1;
+    & > * {
+      margin-left: 38px;
+    }
+  }
+
+  .header__hamburger {
+    display: none;
+  }
+  .header-item__drop {
+    @include dropdown-toggle(1px);
+  }
+  .menu-item__drop:hover .header-item__drop {
+    display: block;
+  }
+
+  .menu-item__drop:active .header-item__drop {
+    display: block;
+  }
+  .menu-item__drop:focus .header-item__drop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__items {
+    & > * {
+      margin-left: 80px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__main {
+    display: flex;
+    flex-basis: 95%;
+  }
+  .header__items {
+    & > * {
+      margin-left: 124px;
+    }
+  }
+}

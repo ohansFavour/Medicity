@@ -1,0 +1,120 @@
+.health {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('../../assets/images/practitioners.png');
+  background-size: contain;
+  z-index: -1;
+  box-sizing: border-box;
+}
+
+.health__main {
+  box-sizing: border-box;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  width: 89%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+  opacity: 1 !important;
+  margin: 0 auto;
+  h3 {
+    color: #186a7b;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 26px;
+    background-color: rgba(226, 103, 119, 1);
+    padding: 10px;
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.health__img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .health {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: none;
+    background-color: none;
+    width: 80%;
+  }
+
+  .health__main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0px;
+    width: 80%;
+    max-width: 80%;
+    background-image: none;
+    background-color: none;
+    z-index: 1;
+    opacity: 1 !important;
+    h3 {
+      color: #186a7b;
+      font-size:2.2em;
+      margin-bottom: 0;
+    }
+    p{
+        width: 80%;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      color: white;
+      border-radius: 26px;
+      background-color: rgba(226, 103, 119, 1);
+      padding: 10px;
+      width: 150px;
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .health__img {
+    display: inline;
+    flex-basis: 60%;
+    max-width:500px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
