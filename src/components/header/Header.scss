@@ -1,27 +1,45 @@
 @import '../../components/hamburger/Hamburger.scss';
+.header__container {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  .button{
+    cursor:pointer
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 10px 20px;
 }
 
 .header__logo {
   img {
     width: 35px;
     height: 35px;
+    cursor:pointer;
   }
 }
 
 .header__items {
   display: none;
+  cursor: pointer;
+}
+.header__shadow{
+ -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    padding: 20px 0;
+    padding: 15px 0;
     width: 80%;
     margin: 0 auto;
+    margin-left: 10%;
   }
   .header__main {
     display: flex;

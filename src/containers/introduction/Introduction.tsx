@@ -1,7 +1,6 @@
 import React from 'react'
 
 // components
-import Header from '../../components/header/Header'
 import Button from '../../components/button/Button'
 
 // styles
@@ -10,9 +9,6 @@ import './Introduction.scss'
 const Introduction: React.FC = (): JSX.Element => {
   return (
     <div className="introduction">
-      <div className="introduction__header">
-        <Header />
-      </div>
       <div className="introduction__main">
         <h3>Artificial Intelligence in Medical Diagnosis</h3>
         <p>
@@ -22,7 +18,6 @@ const Introduction: React.FC = (): JSX.Element => {
             Using this model doctors will be able diagnose disease which can normally be
             misdiagnosed.{' '}
           </span>{' '}
-          
         </p>
         <Button
           title="SIGN UP"

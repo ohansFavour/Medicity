@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
 // Images
 import Practitioners from '../../assets/images/practitioners.png'
@@ -7,7 +8,12 @@ import Phonebook from '../../assets/images/smartphone.svg'
 // styles
 import './Health.scss'
 
-const Health = () => {
+const Health = (props: any) => {
+
+  const handleOnline = () => {
+    props.history.push('/online-diagnosis')
+  }
+
   return (
     <div className="health">
       <div className="health__main">
@@ -16,7 +22,7 @@ const Health = () => {
           What concerns you about your health today? Check your symptoms and find out what could be
           causing them. It's fast, free and anonymous.
         </p>
-        <button>
+        <button onClick={handleOnline}>
           <img src={Phonebook} alt="phone" />
           Start Checkup
         </button>
@@ -28,4 +34,4 @@ const Health = () => {
   )
 }
 
-export default Health
+export default withRouter(Health)

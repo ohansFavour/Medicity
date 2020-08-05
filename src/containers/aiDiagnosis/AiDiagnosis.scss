@@ -1,0 +1,117 @@
+.ai {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  margin-top:60px;
+  .ai__header {
+    text-align: center;
+    h1 {
+      color: #186a7b;
+      font-size: 1.8em;
+    }
+  }
+  .ai__content {
+    .ai__liner {
+      color: #186a7b;
+      margin-bottom: 20px;
+    }
+    .ai__desc {
+      color: #707070;
+      margin-bottom: 50px;
+    }
+  }
+  .ai__cta {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+    h3 {
+      color: #186a7b;
+      margin: 0;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 10px 0;
+      outline: 0;
+      border: 0;
+      outline: 0;
+      background-color: #e26777;
+      width: 150px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      color: white;
+      img {
+        width: 2opx;
+        height: auto;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ai {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 110px;
+    .ai__header {
+      h1 {
+        color: #186a7b;
+        font-size: 2.2em;
+        margin-bottom: 60px;
+      }
+    }
+    .ai__content {
+        // padding: 0 10px;
+      .ai__liner {
+        color: #186a7b;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        text-align: center;
+      }
+      .ai__desc {
+        color: #707070;
+        margin-bottom: 50px;
+        width: 85%;
+        margin: 0 auto;
+        line-height: 1.7;
+      }
+    }
+  }
+  .ai__main {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 400px;
+    .ai__content {
+      flex-basis: 60%;
+    }
+    .ai__cta-container {
+      flex-basis: 40%;
+      background-image: url('../../assets/images/doctor.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+}
