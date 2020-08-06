@@ -13,7 +13,7 @@ const Introduction: React.FC = (): JSX.Element => {
         <h3>Artificial Intelligence in Medical Diagnosis</h3>
         <p>
           Doctors have access to highly efficient trained AI models which can be used for the fast
-          diagnosis of patients.
+          diagnosis of patients.&nbsp;
           <span>
             Using this model doctors will be able diagnose disease which can normally be
             misdiagnosed.{' '}
