@@ -13,12 +13,11 @@ import DownArrow from '../../assets/images/down-arrow.svg'
 import './Hamburger.scss'
 
 const Hamburger: React.FC = (): JSX.Element => {
-  const [btnStatus, setBtnStatus] = useState<boolean>(false)
+  const [, setBtnStatus] = useState<boolean>(false)
 
-  const setFalse = (): void => {
-    console.log(btnStatus)
-    setBtnStatus(false)
-  }
+  
+    
+ 
 
   return (
     <Menu
@@ -26,7 +25,7 @@ const Hamburger: React.FC = (): JSX.Element => {
       disableAutoFocus={true}
       right={true}
     >
-      <a id="home" className="menu-item" href="/" onClick={setFalse}>
+      <a id="home" className="menu-item" href="/" onClick={()=>{setBtnStatus(false)}}>
         Home
       </a>
       <div id="home" className="menu-item">
@@ -34,15 +33,15 @@ const Hamburger: React.FC = (): JSX.Element => {
           {' '}
           Service <img src={DownArrow} alt="down-arrow" className="down-arrow" />
           <div className="dropdown__toggle">
-            <DropDown />
+            <DropDown closeTab={setBtnStatus}/>
           </div>
         </div>
       </div>
-      <a id="home" className="menu-item" href="/" onClick={setFalse}>
+      <a id="home" className="menu-item" href="/" onClick={()=>{setBtnStatus(false)}}>
         Contact Us
       </a>
 
-      <Button width={120} height={44} title="SIGN IN" color="#E26777" handleClick={setFalse} />
+      <Button width={120} height={44} title="SIGN IN" color="#E26777" handleClick={()=>{setBtnStatus(false)}} />
     </Menu>
   )
 }

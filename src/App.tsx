@@ -15,7 +15,7 @@ import AiPage from './pages/aiPage/AiPage'
 
 const App: React.FC = (): JSX.Element => {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Switch>
         <Route exact={true} path="/" component={Homepage} />
