@@ -10,7 +10,6 @@ import './DropDown.scss'
 const DropDown = (props: any): JSX.Element => {
   const handleOnline = () => {
     if(props.closeTab){
-      console.log(props.closeTab)
       props.closeTab(false)
     }
     props.history.push('/online-diagnosis')

@@ -10,6 +10,7 @@ interface IButtonOwnProps {
   height: number
   color: string
   handleClick?: (event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => void
+  onClick?: any
   id?: string
 }
 
