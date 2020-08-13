@@ -135,3 +135,6 @@ div {
 .menu-item__drop:focus .dropdown__toggle {
   display: block;
 }
+.menu-item{
+    text-decoration: none !important;
+}

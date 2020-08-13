@@ -1,0 +1,59 @@
+.autoSuggest {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  .autoSuggest__selected {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    // border: solid red 1px;
+  }
+  .autoSuggest__suggest {
+    // width: 100%;
+    border-radius: 12px;
+
+
+    .autoSuggest__suggestion {
+      width: 100%;
+    }
+  }
+}
+
+input[id='selected'] {
+  color: #186a7b;
+  background-color: white;
+  background-image: url('../../assets/images/search.svg');
+  background-size: 12px auto;
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
+  border: solid 0.5px #dbe1e6;
+  padding: 10px 20px;
+  padding-left: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .autoSuggest {
+    margin-top: 40px;
+    .autoSuggest__selected {
+      min-height: 140px;
+      overflow-y: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  input[id='selected'],
+  .autoSuggest {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}

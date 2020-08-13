@@ -1,0 +1,55 @@
+.diagnosis-start {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+
+  h2 {
+    color: #186a7b;
+    font-size: 1.6em;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  .diagnosis-start__image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .diagnosis-start__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+  .diagnosis-start {
+    margin: 0 auto;
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+    .diagnosis-start__image {
+      display: flex;
+      justify-content: flex-end;
+      max-height: 60%;
+      overflow: hidden;
+      img {
+        width: auto;
+        max-width:90%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        
+     
+      }
+    }
+    .diagnosis-start__main {
+      align-items: flex-start;
+      justify-content: flex-start;
+
+    }
+  }
+}

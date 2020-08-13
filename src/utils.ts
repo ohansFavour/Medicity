@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import { throttle } from 'lodash'
 
+
+export const suggestions = ["headache", "cold", "cough", "sneeze", "diarrhea", "temperature", "migraine", "catarrh", "red eye", "swell"]
+
 function useDocumentScrollThrottled(callback: any) {
   const [, setScrollPosition] = useState(0)
   let previousScrollTop = 0

@@ -15,7 +15,7 @@ const OnlineDiagnosis: React.FC = (): JSX.Element => {
       <div className="diagnosis">
         <h1>Online Diagnosis</h1>
         <p>
-          Our symptom checker is quick and easy to use it provides you with fast, efficient and
+          Our symptom checker is quick and easy to use. It provides you with fast, efficient and
           accurate health assessment.
         </p>
         <div className="diagnosis__step">
