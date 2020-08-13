@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
 // styles
 import './OnlineDiagnosis.scss'
@@ -8,7 +9,10 @@ import Check from '../../assets/images/check.svg'
 import SmartPhone from '../../assets/images/smartphone.svg'
 import Practitioners from '../../assets/images/Online test practitioners.svg'
 
-const OnlineDiagnosis: React.FC = (): JSX.Element => {
+const OnlineDiagnosis: React.FC = (props: any): JSX.Element => {
+  const handleCheckup = () => {
+    props.history.push('/checkup')
+  }
   return (
     <div className="diagnosis__container">
       <img src={Practitioners} alt="practitioners" />
@@ -43,9 +47,9 @@ const OnlineDiagnosis: React.FC = (): JSX.Element => {
         <div className="diagnosis__start">
           {' '}
           <h3>Feeling ill? Try it now</h3>
-          <button>
+          <button onClick={() => handleCheckup()}>
             <img src={SmartPhone} alt="smart_phone" />
-            Start Check Up
+            Start
           </button>
         </div>
       </div>
@@ -53,4 +57,4 @@ const OnlineDiagnosis: React.FC = (): JSX.Element => {
   )
 }
 
-export default OnlineDiagnosis
+export default withRouter(OnlineDiagnosis)

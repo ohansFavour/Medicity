@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import Accept from '../../assets/images/Accept terms.svg'
 
 import "./Terms.scss"
 
-const Terms = () => {
+const Terms = (props:any) => {
+  const [checked, setChecked] = useState(false)
+
+  const handleChanged= (e:any)=>{
+   setChecked(e.target.checked)
+   console.log(checked);
+   props.setIsChecked(!checked)
+  }
+
+
   return (
     <div className="terms">
       <img src={Accept} alt="accept terms and conditions" />
@@ -26,7 +35,7 @@ const Terms = () => {
           </li>
         </ul>
         <div className="terms__acceptance">
-          <input type="checkbox" />
+          <input type="checkbox" onChange={(e)=>handleChanged(e)}/>
           <p>
             I have <span>read</span> the <span>terms and conditions</span> and also{' '}
             <span>Privacy policies</span>.

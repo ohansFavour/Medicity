@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { stack as Menu } from 'react-burger-menu'
+import {Link} from "react-router-dom"
 
 // components
 import Button from '../button/Button'
@@ -31,9 +32,9 @@ const Hamburger: React.FC = (): JSX.Element => {
       isOpen ={menuOpen}
       onStateChange = {(state)=> handleStateChange(state)}
     >
-      <a id="home" className="menu-item" href="/" onClick={()=> setMenuOpen(false)}>
+      <Link id="home" className="menu-item" to="/" onClick={()=> setMenuOpen(false)}>
         Home
-      </a>
+      </Link>
       <div id="home" className="menu-item">
         <div className="menu-item__drop">
           {' '}
@@ -43,9 +44,9 @@ const Hamburger: React.FC = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <a id="home" className="menu-item" href="/" onClick={()=> setMenuOpen(false)}>
+      <Link id="home" className="menu-item" to="/" onClick={()=> setMenuOpen(false)}>
         Contact Us
-      </a>
+      </Link>
 
       <Button width={120} height={44} title="SIGN IN" color="#E26777"  handleClick={()=> setMenuOpen(false)}/>
      

@@ -21,7 +21,7 @@ const Introduction: React.FC = (): JSX.Element => {
         </p>
         <Button
           title="SIGN UP"
-          width={106}
+          width={100}
           height={39}
           color="rgba(226, 103, 119, 1)"
           handleClick={() => {}}

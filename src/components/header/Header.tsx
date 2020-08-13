@@ -66,7 +66,7 @@ const Header: React.FC = (props: any): JSX.Element => {
             </span>
             <span>Contact Us</span>
             <Button
-              width={120}
+              width={100}
               height={44}
               title="SIGN IN"
               color="#E26777"
