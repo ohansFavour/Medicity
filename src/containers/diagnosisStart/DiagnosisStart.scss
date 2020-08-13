@@ -8,6 +8,7 @@
     font-size: 1.6em;
     margin-bottom: 0px;
     margin-top: 20px;
+    text-align: left;
   }
   .diagnosis-start__image {
     img {
@@ -18,8 +19,8 @@
   .diagnosis-start__main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+      justify-content: flex-start;
     padding: 20px;
   }
  
