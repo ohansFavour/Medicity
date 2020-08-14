@@ -1,19 +1,19 @@
-import React, {useEffect} from 'react'
-import { Slider } from 'rsuite'
-import 'rsuite/dist/styles/rsuite-default.css'
+import React, { useEffect } from 'react'
+// import { Slider } from 'rsuite'
+// import 'rsuite/dist/styles/rsuite-default.css'
 
 const Age = () => {
-  const handleStyle = {
-    color: '#fff',
-    fontSize: 12,
-    width: 32,
-    height: 22,
-  }
+  // const handleStyle = {
+  //   color: '#fff',
+  //   fontSize: 12,
+  //   width: 32,
+  //   height: 22,
+  // }
 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  
+
   return (
     <div
       className="age"
@@ -26,14 +26,14 @@ const Age = () => {
         Please Select Your Age
       </h3>
       <div style={{ width: '80%', margin: '0 auto', marginBottom: '70px' }}>
-        <Slider
-          progress
+        {/* <Slider
+          progress={true}
           defaultValue={50}
           handleStyle={handleStyle}
           onChange={(value) => {
             // console.log(value)
           }}
-        />
+        /> */}
       </div>
     </div>
   )

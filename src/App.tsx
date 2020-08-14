@@ -15,6 +15,7 @@ import OnlineDiagnosis from './pages/onlineDiagnosis/OnlineDiagnosis'
 import AiPage from './pages/aiPage/AiPage'
 import Checkup from './pages/Checkup/Checkup'
 import ScrollToTop from './pages/ScrollToTop'
+import SignupDoctor from './pages/Signup/Signup'
 
 const App: React.FC = (): JSX.Element => {
   return (
@@ -27,6 +28,7 @@ const App: React.FC = (): JSX.Element => {
           <Route exact={true} path="/online-diagnosis" component={OnlineDiagnosis} />
           <Route exact={true} path="/ai-diagnosis" component={AiPage} />
           <Route exact={true} path="/checkup" component={Checkup} />
+          <Route exact={true} path="/test" component={SignupDoctor}/>
         </Switch>
         <Footer />
       </ScrollToTop>
