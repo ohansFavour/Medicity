@@ -5,6 +5,7 @@ import './Signup.scss'
 
 // images
 import Practitioners from '../../assets/images/signup-img.png'
+import PractitionersDesktop from "../../assets/images/desktop-signin.png";
 
 // components
 
@@ -12,7 +13,8 @@ const Signup = () => {
   return (
     <div className="signup__container">
       <div className="signup">
-        <img src={Practitioners} alt="practitioners" />
+        <img src={Practitioners} alt="practitioners" className="practitioners__mobile"/>
+        <img src={PractitionersDesktop} alt="practitioners" className="practitioners__desktop"/>
         <div className="signup__main">
           <h1>Welcome!</h1>
           <p>Please login to you account</p>

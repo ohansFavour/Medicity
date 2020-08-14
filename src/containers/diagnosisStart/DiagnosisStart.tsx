@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import './DiagnosisStart.scss'
 
 import Doctor from '../../assets/images/Online Doctor-rafiki.svg'
 
 const DiagnosisStart = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div className="diagnosis-start">
      <div className="diagnosis-start__image"><img src={Doctor} alt="practitioners" /></div> 

@@ -8,6 +8,7 @@ import Age from '../../containers/Age/Age'
 import Symptoms from '../../containers/Symptoms/Symptoms'
 import Questions from '../../containers/Questions/Questions'
 
+
 const Checkup = () => {
   const [pageNumber, setPageNumber] = useState(1)
   const [isChecked, setIsChecked] = useState(false)
@@ -55,41 +56,43 @@ const Checkup = () => {
           </div>
         </div>
       </div>
-      <div className="checkup__main">
-        <div className={`checkup__content ${pageNumber === 1 ? 'checkup__visible' : ''}`}>
-          <DiagnosisStart />
-        </div>
-        <div className={`checkup__content ${pageNumber === 2 ? 'checkup__visible' : ''}`}>
+    
+        <div className="checkup__main">
+          <div className={`checkup__content ${pageNumber === 1 ? 'checkup__visible' : ''}`}>
+           <DiagnosisStart />
+          </div>
+          <div className={`checkup__content ${pageNumber === 2 ? 'checkup__visible' : ''}`}>
           <Terms setIsChecked={setIsChecked} />
-        </div>
-        <div className={`checkup__content ${pageNumber === 3 ? 'checkup__visible' : ''}`}>
-          <Gender />
-        </div>
-        <div className={`checkup__content ${pageNumber === 4 ? 'checkup__visible' : ''}`}>
-          <Age />
-        </div>
-        <div className={`checkup__content ${pageNumber === 5 ? 'checkup__visible' : ''}`}>
+          </div>
+          <div className={`checkup__content ${pageNumber === 3 ? 'checkup__visible' : ''}`}>
+           <Gender />
+          </div>
+          <div className={`checkup__content ${pageNumber === 4 ? 'checkup__visible' : ''}`}>
+           <Age />
+          </div>
+          <div className={`checkup__content ${pageNumber === 5 ? 'checkup__visible' : ''}`}>
           <Symptoms />
-        </div>
-        <div className={`checkup__content ${pageNumber === 6 ? 'checkup__visible' : ''}`}>
+          </div>
+          <div className={`checkup__content ${pageNumber === 6 ? 'checkup__visible' : ''}`}>
           <Questions />
+          </div>
+          <div className="checkup__footer">
+            {pageNumber !== 1 && (
+              <div onClick={() => handlePageDecrease()} style={{ cursor: 'pointer' }}>
+                <span> &lt; </span>Back
+              </div>
+            )}
+            <button
+              onClick={() => handlePageIncrease()}
+              style={{ cursor: 'pointer' }}
+              disabled={isDisabled}
+              className={`${isDisabled ? 'disabled' : ''}`}
+            >
+              Next
+            </button>
+          </div>{' '}
         </div>
-        <div className="checkup__footer">
-          {pageNumber !== 1 && (
-            <div onClick={() => handlePageDecrease()} style={{ cursor: 'pointer' }}>
-              <span> &lt; </span>Back
-            </div>
-          )}
-          <button
-            onClick={() => handlePageIncrease()}
-            style={{ cursor: 'pointer' }}
-            disabled={isDisabled}
-            className={`${isDisabled ? 'disabled' : ''}`}
-          >
-            Next
-          </button>
-        </div>{' '}
-      </div>
+      
     </div>
   )
 }

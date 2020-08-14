@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useEffect } from 'react'
 import AutoSuggest from '../../components/AutoSuggest/AutoSuggest'
 import './Symptoms.scss'
 
 const Symptoms = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="symptoms">
       <div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 import './Gender.scss'
 
@@ -7,6 +7,10 @@ import Lady from '../../assets/images/lady.svg'
 
 const Gender = () => {
   const [selected, setSelected] = useState(0)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="gender">

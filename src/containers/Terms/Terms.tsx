@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import Accept from '../../assets/images/Accept terms.svg'
 
@@ -13,6 +13,9 @@ const Terms = (props:any) => {
    props.setIsChecked(!checked)
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="terms">
@@ -35,7 +38,7 @@ const Terms = (props:any) => {
           </li>
         </ul>
         <div className="terms__acceptance">
-          <input type="checkbox" onChange={(e)=>handleChanged(e)}/>
+          <input type="checkbox" onChange={(e)=>handleChanged(e)} id="term"/>
           <p>
             I have <span>read</span> the <span>terms and conditions</span> and also{' '}
             <span>Privacy policies</span>.

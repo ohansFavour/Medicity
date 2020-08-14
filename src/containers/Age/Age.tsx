@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Slider } from 'rsuite'
 import 'rsuite/dist/styles/rsuite-default.css'
 
@@ -9,6 +9,11 @@ const Age = () => {
     width: 32,
     height: 22,
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div
       className="age"
