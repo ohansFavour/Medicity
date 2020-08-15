@@ -1,12 +1,15 @@
 import React from 'react'
-
+import {withRouter} from "react-router-dom"
 // components
 import Button from '../../components/button/Button'
 
 // styles
 import './Introduction.scss'
 
-const Introduction: React.FC = (): JSX.Element => {
+const Introduction: React.FC = (props:any): JSX.Element => {
+  const handleSignup = ()=>{
+  props.history.push("/sign-up");
+  }
   return (
     <div className="introduction">
       <div className="introduction__main">
@@ -24,7 +27,7 @@ const Introduction: React.FC = (): JSX.Element => {
           width={100}
           height={39}
           color="rgba(226, 103, 119, 1)"
-          handleClick={() => {}}
+          handleClick={() => {handleSignup()}}
           id="introduction__button"
         />
       </div>
@@ -32,4 +35,4 @@ const Introduction: React.FC = (): JSX.Element => {
   )
 }
 
-export default Introduction
+export default withRouter(Introduction)

@@ -17,18 +17,18 @@ const SignupDoctor = () => {
           <form>
             <label htmlFor="signupDoctor__name">Firstname</label>
             <input type="name" id="signupDoctor__name" />
-            <label htmlFor="signupDoctor__name">Lastname</label>
-            <input type="name" id="signupDoctor__name" />
-            <label htmlFor="signupDoctor__name">Username</label>
-            <input type="name" id="signupDoctor__name" />
-            <label htmlFor="signupDoctor__name">Email</label>
-            <input type="name" id="signupDoctor__name" />
-            <label htmlFor="signupDoctor__name">Phone Number</label>{' '}
-            <input type="name" id="signupDoctor__name" />
+            <label htmlFor="signupDoctor__lastname">Lastname</label>
+            <input type="name" id="signupDoctor__lastname" />
+            <label htmlFor="signupDoctor__uname">Username</label>
+            <input type="name" id="signupDoctor__uname" />
+            <label htmlFor="signupDoctor__email">Email</label>
+            <input type="name" id="signupDoctor__email" />
+            <label htmlFor="signupDoctor__number">Phone Number</label>{' '}
+            <input type="name" id="signupDoctor__number" />
             <label htmlFor="signupDoctor__password">Password</label>{' '}
             <input type="name" id="signupDoctor__password" />
-            <label htmlFor="signupDoctor__password">Confirm Password</label>{' '}
-            <input type="name" id="signupDoctor__password" />
+            <label htmlFor="signupDoctor__cpassword">Confirm Password</label>{' '}
+            <input type="name" id="signupDoctor__cpassword" />
           </form>
           <div className="signupDoctor__doctor">
             <div className="signupDoctor__doctor-buttons">
