@@ -25,7 +25,7 @@ const Signup = () => {
             <input type="name" id="signup__password" />
             <div className="signup__remember">
               <span className="signup__rememberme">
-                <input type="checkbox" /> Remember me
+                <input type="checkbox" id="signin-check"/> Remember me
               </span>
               <span className="signup__forgot">Forgot password?</span>
             </div>

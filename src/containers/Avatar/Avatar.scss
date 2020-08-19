@@ -1,0 +1,47 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+  }
+  span {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    position: relative;
+    top: 2px;
+  }
+  .avatar__name {
+    color: #186a7b;
+  }
+}
+
+.avatar__details {
+  display: flex;
+  flex-direction: column;
+}
+.avatar--mobile {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-bottom: 8px;
+  }
+}
+.avatar--desktop {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  img{
+    margin-right:8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .avatar--desktop {
+    display: none;
+  }
+}

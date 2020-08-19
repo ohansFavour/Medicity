@@ -1,0 +1,34 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #186a7b;
+  height: 300px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  width: 85%;
+  max-width: 400px;
+  color: white;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 4.5em;
+    color: #e26777;
+    margin: 0;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 0.85em;
+    text-align: left;
+  }
+}

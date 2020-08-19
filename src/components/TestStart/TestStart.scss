@@ -1,0 +1,148 @@
+.testStart {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 70px;
+
+  .testStart__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    h3 {
+      font-size: 1.8em;
+      margin: 0;
+      color: #186a7b;
+    }
+  }
+  .testStart__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      span {
+        color: #707070;
+        font-size: 0.85em;
+        width: 75%;
+        text-align: center;
+      }
+      img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .testStart__discuss {
+    img {
+      display: none;
+    }
+  }
+  .testStart__how {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    h3 {
+      font-size: 1.7em;
+      margin: 0;
+      color: #186a7b;
+    }
+    .testStart__step {
+      display: flex;
+      align-items: center;
+
+      margin-top: 20px;
+      .testStart__label {
+        padding: 7px 12px;
+        background-color: #e26777;
+        margin-right: 13px;
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+      }
+    }
+  }
+  .testStart__button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    button {
+      color: white;
+      background-color: #e26777;
+      padding: 10px 35px;
+      font-size: 1.1em;
+      border-radius: 7px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .testStart {
+    box-sizing: border-box;
+    padding: 100px 50px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0;
+    height: 100vh;
+    margin-left: auto;
+    overflow-y: auto;
+    background: #186a7b1f 0% 0% no-repeat padding-box;
+    .testStart__header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .testStart__image {
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 75%;
+      margin: 0 auto;
+      margin-bottom: 0px;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        img {
+          width: 150px;
+          height: auto;
+          margin: 10px;
+        }
+      }
+    }
+    .testStart__discuss {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .testStart__how {
+        flex-basis: 50%;
+        margin: 0;
+        .testStart__step {
+          margin-left: 35px;
+        }
+      }
+      img {
+        display: flex;
+        height: 250px;
+        width: auto;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .testStart {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}

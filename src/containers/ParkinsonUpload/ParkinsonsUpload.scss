@@ -1,0 +1,14 @@
+.parkinsonsUpload {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+@media only screen and (min-width: 768px) {
+  .parkinsonsUpload {
+    background-color: #e3edef;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    width: 90%;
+    margin-left: auto;
+  }
+}

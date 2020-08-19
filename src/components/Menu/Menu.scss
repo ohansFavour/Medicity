@@ -1,0 +1,151 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 30px;
+  height: 27px;
+}
+button:focus {
+  outline: none;
+  transition: none;
+  background: transparent;
+  border: none;
+  box-shadow: none !important;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 13px !important;
+  left: 16px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #e26777 0% 0% no-repeat padding-box;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100% !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 100% !important;
+  border-radius: 20px;
+  overflow: hidden !important;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: white;
+}
+
+/* Wrapper for item list */
+a {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.bm-item-list {
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 68%;
+  margin-top: 20px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 1.6rem;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #186a7b;
+  opacity: 1;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: transparent !important;
+}
+
+.menu {
+  .bm-item-list {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    max-height: 90%;
+    padding: 0;
+  }
+}
+.bm-item.menu__avatar {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bm-item.menu__items {
+  height: 70% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85em;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #186a7b;
+
+    img {
+      margin-right: 15px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.bm-item.menu__footer {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  font-size: 1em;
+  color: #e26777;
+  img {
+    margin-right: 10px;
+  }
+}
+.menu.bm-item:hover {
+  background: #e3eced 0% 0% no-repeat padding-box;
+}

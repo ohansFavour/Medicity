@@ -15,10 +15,16 @@ const SignupDoctor = () => {
           <h1>Welcome!</h1>
           <p>Please only doctors are allowed to signup</p>
           <form>
-            <label htmlFor="signupDoctor__name">Firstname</label>
-            <input type="name" id="signupDoctor__name" />
-            <label htmlFor="signupDoctor__lastname">Lastname</label>
-            <input type="name" id="signupDoctor__lastname" />
+            <div className="names">
+              <div className="first">
+                <label htmlFor="signupDoctor__name">Firstname</label>
+                <input type="name" id="signupDoctor__name" />
+              </div>
+              <div>
+                <label htmlFor="signupDoctor__lastname">Lastname</label>
+                <input type="name" id="signupDoctor__lastname" />
+              </div>
+            </div>
             <label htmlFor="signupDoctor__uname">Username</label>
             <input type="name" id="signupDoctor__uname" />
             <label htmlFor="signupDoctor__email">Email</label>
@@ -26,15 +32,16 @@ const SignupDoctor = () => {
             <label htmlFor="signupDoctor__number">Phone Number</label>{' '}
             <input type="name" id="signupDoctor__number" />
             <label htmlFor="signupDoctor__password">Password</label>{' '}
-            <input type="name" id="signupDoctor__password" />
+            <input type="password" id="signupDoctor__password" />
             <label htmlFor="signupDoctor__cpassword">Confirm Password</label>{' '}
-            <input type="name" id="signupDoctor__cpassword" />
-          </form>
-          <div className="signupDoctor__doctor">
+            <input type="password" id="signupDoctor__cpassword" />
+            <div className="signupDoctor__doctor">
             <div className="signupDoctor__doctor-buttons">
               <button className="signupDoctor__button">Sign up</button>
             </div>
           </div>
+          </form>
+          
         </div>
       </div>
     </div>
