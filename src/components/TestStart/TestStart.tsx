@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import './TestStart.scss'
 
 import OnlineDiagnosis from '../../assets/images/Online Doctor-rafiki.svg'
@@ -39,10 +40,16 @@ const TestStart = (props: any) => {
         </div>
       </div>
       <div className="testStart__button">
-        <button>Start Test</button>
+        <button
+          onClick={() => {
+            props.history.push(`${props.match.path}/upload`)
+          }}
+        >
+          Start Test
+        </button>
       </div>
     </div>
   )
 }
 
-export default TestStart
+export default withRouter(TestStart)

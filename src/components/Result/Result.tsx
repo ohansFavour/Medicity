@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Result.scss'
+import { StoreContext } from '../../context/store'
 
-const Result = () => {
+const Result = (props: any) => {
+  const { state } = useContext(StoreContext)
   return (
     <div className="result">
       <span>&#10006;</span>
       <div>
-        <h3>Probability of Patient having Parkinson's disease is</h3>
-        <h1>45%</h1>
+        <h3>{state.result.header}</h3>
+        <h1>{state.result.result}</h1>
         <h4>The system used an algorithm to compare patients drawings with a trained model</h4>
       </div>
     </div>

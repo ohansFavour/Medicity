@@ -1,8 +1,16 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "plugins": [{ "name": "typescript-tslint-plugin" }],
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -25,7 +33,10 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src", "jest.config.js"],
+  "include": [
+    "src",
+    "jest.config.js"
+  ],
   "exclude": [
     "node_modules",
     "build",

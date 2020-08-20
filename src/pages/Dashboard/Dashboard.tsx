@@ -18,6 +18,7 @@ import TuberculosisUpload from '../../containers/TuberculosisUpload/Tuberculosis
 import DiabetesUpload from '../../containers/DiabetesUpload/DiabetesUpload'
 import Stress from '../../containers/Stress/Stress'
 import CardioUpload from '../../containers/CardioUpload/CardioUpload'
+import StressUpload from '../../containers/StressUpload/StressUpload'
 
 const Dashboard = (props: any) => {
   return (
@@ -26,7 +27,7 @@ const Dashboard = (props: any) => {
       <Avatar />
       <Sidebar />
       <Switch>
-        <Route exact={true} path={`${props.match.path}`} component={AiDashboard} s={true} />
+        <Route exact={true} path={`${props.match.path}`} component={AiDashboard}/>
         <Route exact={true} path={`${props.match.path}/parkinsons`} component={Parkinsons} />
         <Route
           exact={true}
@@ -75,7 +76,7 @@ const Dashboard = (props: any) => {
           component={TestResult}
         />
         <Route exact={true} path={`${props.match.path}/stress`} component={Stress} />
-        <Route exact={true} path={`${props.match.path}/stress/upload`} component={Stress} />
+        <Route exact={true} path={`${props.match.path}/stress/upload`} component={StressUpload} />
         <Route exact={true} path={`${props.match.path}/stress/result`} component={TestResult} />
       </Switch>
     </>

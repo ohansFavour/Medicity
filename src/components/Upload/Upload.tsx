@@ -60,7 +60,7 @@ const Upload = (props: any) => {
         onChange={handleInput2Change}
         style={{ display: 'none' }}
       />
-      <button>Upload</button>
+      <button onClick={props.handleSubmit}>Upload</button>
       </div> 
     </div>
   )

@@ -5,7 +5,7 @@ const Age = () => {
   const [age, setAge] = useState(50)
   return (
     <div className="age">
-      <h2>Please Select Age</h2>
+      <h2>Please Select Your Age</h2>
       <span>{age}</span>
       <div className="slidecontainer">
         <input
