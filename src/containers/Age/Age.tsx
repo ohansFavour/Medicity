@@ -1,39 +1,23 @@
-import React, { useEffect } from 'react'
-// import { Slider } from 'rsuite'
-// import 'rsuite/dist/styles/rsuite-default.css'
+import React, { useState } from 'react'
+import './Age.scss'
 
 const Age = () => {
-  // const handleStyle = {
-  //   color: '#fff',
-  //   fontSize: 12,
-  //   width: 32,
-  //   height: 22,
-  // }
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
+  const [age, setAge] = useState(50)
   return (
-    <div
-      className="age"
-      style={{
-        paddingTop: '70px',
-        fontFamily: "'Raleway', sans-serif",
-      }}
-    >
-      <h3 style={{ marginBottom: '70px', textAlign: 'center', color: '#186a7b' }}>
-        Please Select Your Age
-      </h3>
-      <div style={{ width: '80%', margin: '0 auto', marginBottom: '70px' }}>
-        {/* <Slider
-          progress={true}
-          defaultValue={50}
-          handleStyle={handleStyle}
-          onChange={(value) => {
-            // console.log(value)
+    <div className="age">
+      <h2>Please Select Age</h2>
+      <span>{age}</span>
+      <div className="slidecontainer">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          className="slider"
+          id="myRange"
+          onChange={(e) => {
+            setAge(Number(e.target.value))
           }}
-        /> */}
+        />
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from "react-router-dom"
 
 // styles
 import './AiDiagnosis.scss'
@@ -6,7 +7,7 @@ import './AiDiagnosis.scss'
 // images
 import Apply from '../../assets/images/apply.svg'
 
-const AiDiagnosis: React.FC = (): JSX.Element => {
+const AiDiagnosis: React.FC = (props: any): JSX.Element => {
   return (
     <div className="ai">
       <div className="ai__header">
@@ -32,7 +33,7 @@ const AiDiagnosis: React.FC = (): JSX.Element => {
         <div className="ai__cta-container">
           <div className="ai__cta">
             <h3>Apply as a Doctor</h3>
-            <button>
+            <button onClick={() => props.history.push('/sign-in')}>
               <img src={Apply} alt="apply" /> Apply
             </button>
           </div>
@@ -42,4 +43,4 @@ const AiDiagnosis: React.FC = (): JSX.Element => {
   )
 }
 
-export default AiDiagnosis
+export default withRouter(AiDiagnosis)

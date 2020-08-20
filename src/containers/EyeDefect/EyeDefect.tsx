@@ -10,6 +10,8 @@ const details = {
   header: 'Eye Disease Detection System',
   details:
     'This system detects eye defects or diseases such as Cataracts, Glaucoma, and Reina disease',
+  show:
+    'Above is an example of various eye scans from a normal eye to a retina disease infected eye All that is needed to be done is listed below',
   img: [
     { alt: 'Normal Eye Scan', src: Normal },
     { alt: 'Cataract Infected Eye', src: Cataract },
@@ -18,7 +20,7 @@ const details = {
   ],
 }
 const EyeDefect = () => {
-  return <TestStart {...details}/>
+  return <TestStart {...details} />
 }
 
 export default EyeDefect

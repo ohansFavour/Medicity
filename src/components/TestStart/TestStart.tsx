@@ -12,16 +12,15 @@ const TestStart = (props: any) => {
       </div>
       <div className="testStart__image">
         {props.img.map((entry: any) => (
-          <div key={entry}><img src={entry.src} alt={entry.alt} /> <span>{entry.alt}</span></div>
+          <div key={entry}>
+            <img src={entry.src} alt={entry.alt} /> <span>{entry.alt}</span>
+          </div>
         ))}
       </div>
       <div className="testStart__discuss">
         <div className="testStart__how">
           <h3>How to Use</h3>
-          <p>
-            Above is an example of a drawing of spiral and wave drawn by a Parkinson's Patient All
-            that is needed to be done is listed below
-          </p>
+          <p>{props.show}</p>
           <div className="testStart__step">
             <span className="testStart__label">1</span>{' '}
             <span>Input images in respective image boxes.</span>

@@ -1,0 +1,143 @@
+@mixin shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.TuberculosisUpload__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  .TuberculosisUpload {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #186a7b;
+
+    h2 {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .TuberculosisUpload__main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      max-width: 350px;
+      background-color: #186a7b68;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 30px;
+      padding-bottom: 15px;
+      text-align: center;
+      width: 80%;
+
+      @include shadow;
+      text-align: center;
+
+      .TuberculosisUpload__name {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        label {
+          font-size: 0.85em;
+          margin-bottom: 12px;
+        }
+        input {
+          border: solid 1px rgba(0, 0, 0, 0.16);
+          margin-bottom: 20px;
+          border-radius: 20px;
+          padding: 10px 10%;
+          outline: 0;
+          height: 42px;
+          background-image: linear-gradient(
+            90deg,
+            rgba(226, 103, 119, 1) 5%,
+            white 5%
+          );
+          width: 100%;
+          box-sizing: border-box;
+          border: solid 0.2px rgba(#186a7b68, 0.8);
+        }
+      }
+
+      .TuberculosisUpload__file {
+        width: 100%;
+        div {
+          border: solid 1px rgba(0, 0, 0, 0.16);
+          padding: 10px;
+          margin-bottom: 20px;
+          margin-top: 12px;
+          border-radius: 20px;
+          padding: 10px 10%;
+          outline: 0;
+          cursor: pointer;
+          background-color: white;
+          color: #186a7b;
+          z-index: 100;
+          text-align: center;
+          border: solid 0.2px rgba(#186a7b68, 0.8);
+        }
+        span {
+          font-size: 0.85em;
+        }
+      }
+    }
+
+    button {
+      width: 95px;
+      padding: 10px 15px;
+      text-align: center;
+      border-radius: 10px;
+      border: 0;
+      background-color: rgba(226, 103, 119, 1);
+      color: white;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    label {
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .TuberculosisUpload__container {
+    background-color: #e3edef;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    width: 90%;
+    margin-left: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+    .TuberculosisUpload {
+      width: 90%;
+
+      .TuberculosisUpload__main {
+        background-color: #186a7b69;
+        .TuberculosisUpload__file {
+          text-align: left;
+        }
+      }
+    }
+  }
+  button {
+    cursor: pointer;
+  }
+  a {
+    cursor: pointer;
+  }
+}
