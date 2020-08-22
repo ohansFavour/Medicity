@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link, withRouter } from 'react-router-dom'
 
 // styles
@@ -10,14 +10,21 @@ import Ai from '../../assets/images/ailogo.svg'
 import Help from '../../assets/images/XMLID_1489_.svg'
 import Check from '../../assets/images/021-medical-history.svg'
 import Logout from '../../assets/images/5352308321577437005.svg'
+import { StoreContext } from '../../context/store'
 
 const Sidebar = (props: any) => {
  const handleLogout = () => {
+   dispatch({
+     type: "SET_USER",
+     payload:null
+   })
     props.history.push('/')
   }
+
+  const {dispatch} = useContext(StoreContext)
   return (
     <div className="sidebar">
-      <div className="sidebar__logo">
+      <div className="sidebar__logo" onClick={()=> props.history.push("/")}>
         <img src={Logo} alt="logo" />
       </div>
       <div className="sidebar__items">

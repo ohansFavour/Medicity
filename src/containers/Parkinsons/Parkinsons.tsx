@@ -9,7 +9,7 @@ const details = {
   header: "Parkinson's Disease Detection System",
   details: "This system detects Parkinson's disease using drawings of wave and spirals",
   show:
-    "Above is an example of a drawing of spiral and wave drawn by a Parkinson's Patient All that is needed to be done is listed below",
+    "Above is an example of a drawing of spiral and wave drawn by a Parkinson's Patient. All that is needed to be done is listed below",
   img: [
     { alt: 'wave', src: Wave },
     { alt: 'spiral', src: Spiral },

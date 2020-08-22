@@ -1,15 +1,16 @@
 import React, { useState, useContext } from 'react'
-// import Axios from 'axios'
+
 
 import './ParkinsonsUpload.scss'
 import Upload from '../../components/Upload/Upload'
 import { StoreContext } from '../../context/store'
+import Spinner from '../../components/Spinner/Spinner'
 
 const ParkinsonsUpload = (props: any) => {
   const [file1, setFile1] = useState<string | Blob>('')
   const [file2, setFile2] = useState<string | Blob>('')
 
-  const { dispatch } = useContext(StoreContext)
+  const { state, dispatch } = useContext(StoreContext)
 
   function spiral(file): any {
     return new Promise((resolve, reject): any => {
@@ -18,7 +19,9 @@ const ParkinsonsUpload = (props: any) => {
       data.append('file', file) // file is a Blob object
 
       const xhr = new XMLHttpRequest()
-
+      xhr.onerror = () => {
+        reject('An Error Occured')
+      }
       xhr.addEventListener('readystatechange', function () {
         if (this.readyState === this.DONE) {
           const value = JSON.parse(this.response).result[0].prediction
@@ -43,6 +46,9 @@ const ParkinsonsUpload = (props: any) => {
 
       const xhr = new XMLHttpRequest()
 
+      xhr.onerror = () => {
+        reject('An Error Occured')
+      }
       xhr.addEventListener('readystatechange', function () {
         if (this.readyState === this.DONE) {
           const value = JSON.parse(this.response).result[0].prediction
@@ -60,34 +66,51 @@ const ParkinsonsUpload = (props: any) => {
   }
 
   const handleSubmit = async () => {
-    const spiralResult = await spiral(file1)
-    const waveResult = await wave(file2)
-
-    const categorizedResult = (((spiralResult + waveResult) / 2) * 100).toFixed(2)
-
     await dispatch({
-      type: 'SET_RESULT',
-      payload: {
-        type: 'number',
-        result: categorizedResult,
-        header: 'Probability Of Patient Have Parkinson Disease',
-      },
+      type: 'IS_LOADING',
     })
-    console.log(props.location, props.history, props.match)
-    props.history.push('/dashboard/parkinsons/result')
+    try {
+      const spiralResult = await spiral(file1)
+      const waveResult = await wave(file2)
+
+      const categorizedResult = (((spiralResult + waveResult) / 2) * 100).toFixed(2)
+
+      await dispatch({
+        type: 'SET_RESULT',
+        payload: {
+          type: 'number',
+          result: categorizedResult,
+          header: 'Probability Of Patient Having Parkinson Disease',
+        },
+      })
+      props.history.push('/dashboard/parkinsons/result')
+    } catch (e) {
+      dispatch({
+        type: 'NOT_LOADING',
+      })
+      alert("An Error Occured, please ensure that you're using the right file type")
+    }
   }
 
   return (
-    <div className="parkinsonsUpload">
-      <Upload
-        file1Heading="Wave Drawing"
-        file2Heading="Spiral Drawing"
-        setFile1={setFile1}
-        setFile2={setFile2}
-        handleSubmit={handleSubmit}
-        name="Patient's Name"
-      />
-    </div>
+    <>
+      {state.isLoading ? (
+        <div className="parkinsonsUpload">
+          <Spinner />
+        </div>
+      ) : (
+        <div className="parkinsonsUpload">
+          <Upload
+            file1Heading="Wave Drawing"
+            file2Heading="Spiral Drawing"
+            setFile1={setFile1}
+            setFile2={setFile2}
+            handleSubmit={handleSubmit}
+            name="Patient's Name"
+          />
+        </div>
+      )}
+    </>
   )
 }
 

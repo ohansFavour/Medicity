@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import { withRouter } from 'react-router-dom'
 
 // components
@@ -14,10 +14,12 @@ import './Header.scss'
 
 // functions
 import useDocumentScrollThrottled from '../../utils'
+import { StoreContext } from '../../context/store'
 
 const Header: React.FC = (props: any): JSX.Element => {
   const [shouldShowShadow, setShouldShowShadow] = useState(false)
   const [shouldHideShadow, setShouldHideShadow] = useState(false)
+  const { state } = useContext(StoreContext)
 
   const MINIMUM_SCROLL = 50
   const TIMEOUT_DELAY = 400
@@ -44,7 +46,6 @@ const Header: React.FC = (props: any): JSX.Element => {
   const handleSignin = () => {
     props.history.push('/sign-in')
   }
- 
 
   return (
     <div className={`header__container ${shadowStyle} ${hiddenStyle}`}>
@@ -66,9 +67,9 @@ const Header: React.FC = (props: any): JSX.Element => {
             </span>
             <span>Contact Us</span>
             <Button
-              width={100}
+              width={state.currentUser ? 120 : 100}
               height={44}
-              title="SIGN IN"
+              title={`${state.currentUser ? 'DASHBOARD' : 'SIGN IN'}`}
               color="#E26777"
               handleClick={handleSignin}
             />

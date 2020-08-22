@@ -19,6 +19,8 @@ import DiabetesUpload from '../../containers/DiabetesUpload/DiabetesUpload'
 import Stress from '../../containers/Stress/Stress'
 import CardioUpload from '../../containers/CardioUpload/CardioUpload'
 import StressUpload from '../../containers/StressUpload/StressUpload'
+import Malaria from '../../containers/Malaria/Malaria'
+import MalariaUpload from '../../containers/MalariaUpload/MalariaUpload'
 
 const Dashboard = (props: any) => {
   return (
@@ -38,12 +40,18 @@ const Dashboard = (props: any) => {
         <Route exact={true} path={`${props.match.path}/eye-defect`} component={EyeDefect} />
         <Route exact={true} path={`${props.match.path}/eye-defect/upload`} component={EyeUpload} />
         <Route exact={true} path={`${props.match.path}/eye-defect/result`} component={TestResult} />
+
+        <Route exact={true} path={`${props.match.path}/malaria`} component={Malaria} />
+        <Route exact={true} path={`${props.match.path}/malaria/upload`} component={MalariaUpload} />
+        <Route exact={true} path={`${props.match.path}/malaria/result`} component={TestResult} />
+
         <Route exact={true} path={`${props.match.path}/pneumonia`} component={Pneumonia} />
         <Route
           exact={true}
           path={`${props.match.path}/pneumonia/upload`}
           component={PneumoniaUpload}
         />
+        
         <Route exact={true} path={`${props.match.path}/pneumonia/result`} component={TestResult} />
         <Route exact={true} path={`${props.match.path}/cardiovascular`} component={Cardio} />
         <Route

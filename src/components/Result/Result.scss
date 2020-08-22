@@ -10,25 +10,45 @@
   width: 85%;
   max-width: 400px;
   color: white;
-  div {
+  .result__number {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-sizing: border-box;
-  }
 
-  h1 {
-    font-size: 4.5em;
-    color: #e26777;
-    margin: 0;
+    h1 {
+      font-size: 4.5em;
+      color: #e26777;
+      margin: 10px 0;
+    }
+    h3 {
+      font-size: 1em;
+    }
+    h4 {
+      font-size: 0.85em;
+      text-align: left;
+    }
   }
-  h3 {
-    font-size: 1em;
+  .result__name {
+    height: 70%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100px;
+      height: auto;
+      padding-top: 15px;
+    }
   }
-  h4 {
-    font-size: 0.85em;
-    text-align: left;
+  .result__back {
+    cursor: pointer;
+    font-size: large;
+    width: 30px;
   }
 }

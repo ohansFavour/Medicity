@@ -1,5 +1,6 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 // styles
 import './App.css'
@@ -9,22 +10,34 @@ import Home from './pages/Home/Home'
 import Dashboard from './pages/Dashboard/Dashboard'
 import SignupDoctor from './pages/Signup/Signup'
 import SigninPage from './pages/signin/SigninPage'
-import Age from './containers/Age/Age'
-import { StoreProvider } from './context/store'
+
+// context
+import { StoreContext } from './context/store'
 
 const App: React.FC = (): JSX.Element => {
+  const { state } = useContext(StoreContext)
   return (
-    <StoreProvider>
+    <Router>
       <div className="app">
         <Switch>
           <Route path="/dashboard" component={Dashboard} />
-          <Route path="/test" component={Age} />
-          <Route exact={true} path="/sign-up" component={SignupDoctor} />
-          <Route exact={true} path="/sign-in" component={SigninPage} />
+          {/* <Route path="/test" component={} /> */}
+          <Route
+            exact={true}
+            path="/sign-up"
+            render={() => {
+              return state.currentUser ? <Redirect to="/dashboard" /> : <SignupDoctor />
+            }}
+          />
+          <Route
+            exact={true}
+            path="/sign-in"
+            render={() => (state.currentUser ? <Redirect to="/dashboard" /> : <SigninPage />)}
+          />
           <Route path="/" component={Home} />
         </Switch>
       </div>
-    </StoreProvider>
+    </Router>
   )
 }
 

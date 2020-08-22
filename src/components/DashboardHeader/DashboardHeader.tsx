@@ -4,8 +4,9 @@ import './DashboardHeader.scss'
 import Logo from '../../assets/images/logo.png'
 import Menu from '../Menu/Menu'
 import useDocumentScrollThrottled from '../../utils'
+import { withRouter } from 'react-router-dom'
 
-const DashboardHeader = () => {
+const DashboardHeader = (props:any) => {
   const [shouldShowShadow, setShouldShowShadow] = useState(false)
   const [shouldHideShadow, setShouldHideShadow] = useState(false)
 
@@ -28,9 +29,9 @@ const DashboardHeader = () => {
   const hiddenStyle = shouldHideShadow ? 'header__hide' : ''
   return (
     <div className={`dashboard__header ${shadowStyle} ${hiddenStyle}`}>
-      <img src={Logo} alt="logo" /> <Menu />
+      <img src={Logo} alt="logo" onClick={()=>props.history.push("/")}/> <Menu />
     </div>
   )
 }
 
-export default DashboardHeader
+export default withRouter(DashboardHeader)

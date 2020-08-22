@@ -12,8 +12,8 @@ const TestStart = (props: any) => {
         <p>{props.details}</p>
       </div>
       <div className="testStart__image">
-        {props.img.map((entry: any) => (
-          <div key={entry}>
+        {props.img.map((entry: any, index) => (
+          <div key={index}>
             <img src={entry.src} alt={entry.alt} /> <span>{entry.alt}</span>
           </div>
         ))}

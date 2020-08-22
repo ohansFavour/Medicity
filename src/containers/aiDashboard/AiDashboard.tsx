@@ -1,7 +1,7 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 
-// import Malaria from '../../assets/images/malaria.png'
+import Malaria from '../../assets/images/malaria.png'
 import Tuberculosis from '../../assets/images/Tuberculosis.png'
 // import Covid from '../../assets/images/covid19.png'
 import Eye from '../../assets/images/eye.png'
@@ -44,6 +44,17 @@ const AiDashboard = (props: any) => {
             <img src={Covid} alt="covid" />
             <span>Covid19 Detection</span>
           </div> */}
+          <div
+            className="aiDashboard__card"
+            onClick={() => {
+              props.history.push('/dashboard/malaria')
+            }}
+          >
+            <img src={Malaria} alt="malaria" />
+            <span>Malaria Detection</span>
+          </div>
+
+
           <div
             className="aiDashboard__card"
             onClick={() => {

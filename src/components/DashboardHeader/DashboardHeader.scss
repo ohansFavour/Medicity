@@ -11,10 +11,11 @@
   img {
     width: 30px;
     height: auto;
+    cursor: pointer;
   }
 }
-@media screen and (min-width:768px){
-  .dashboard__header{
+@media screen and (min-width: 768px) {
+  .dashboard__header {
     display: none;
   }
 }
