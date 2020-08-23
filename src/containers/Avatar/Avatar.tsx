@@ -1,6 +1,5 @@
-import React, {useContext} from 'react'
-import {StoreContext} from "../../context/store"
-
+import React, { useContext } from 'react'
+import { StoreContext } from '../../context/store'
 
 // styles
 import './Avatar.scss'
@@ -9,7 +8,7 @@ import './Avatar.scss'
 import Profile from '../../assets/images/woman-in-white-medical-robe-3714743.png'
 
 const Avatar = (props: any) => {
-  const {state} = useContext(StoreContext)
+  const { state } = useContext(StoreContext)
   return (
     <div className={` avatar ${props.mobile ? 'avatar--mobile' : 'avatar--desktop'}`}>
       <img alt="avatar" src={Profile} />

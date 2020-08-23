@@ -40,7 +40,7 @@ const Signup = (props: any) => {
 
       dispatch({
         type: 'SET_USER',
-        payload: 'Test Doctor',
+        payload: eoru,
       })
       props.history.push('/dashboard')
     } catch (e) {

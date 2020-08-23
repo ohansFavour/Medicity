@@ -30,7 +30,7 @@ const MalariaUpload = (props: any) => {
 
       var xhr = new XMLHttpRequest()
       xhr.onerror = () => {
-        reject('An Error Ocurred whiletrying to test')
+        reject('An Error Ocurred while trying to test')
       }
       xhr.addEventListener('readystatechange', function () {
         if (this.readyState === this.DONE) {
@@ -56,6 +56,7 @@ const MalariaUpload = (props: any) => {
       xhr.send(data)
     })
   }
+
   const handleSubmit = async () => {
     dispatch({
       type: 'IS_LOADING',
@@ -72,7 +73,12 @@ const MalariaUpload = (props: any) => {
         },
       })
       props.history.push('/dashboard/malaria/result')
-    } catch (e) {}
+    } catch (e) {
+      alert(e);
+      dispatch({
+        type: 'NOT_LOADING',
+      })
+    }
   }
   useEffect(() => {
     dispatch({
