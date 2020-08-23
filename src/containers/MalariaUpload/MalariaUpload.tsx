@@ -46,7 +46,10 @@ const MalariaUpload = (props: any) => {
           const keys = Object.keys(obj)
           const values: any = Object.values(obj)
           const maxK = keys[values.indexOf(Math.max(...values))]
-          resolve(maxK)
+          resolve({
+            name: maxK,
+            value: Math.max(...values) * 100,
+          })
         }
       })
 
@@ -68,13 +71,14 @@ const MalariaUpload = (props: any) => {
         type: 'SET_RESULT',
         payload: {
           result: 1,
+          percentage: `${data.value.toFixed(1)}%`,
           type: 'description',
-          disease: `Plasmodium ${data}`,
+          disease: `Plasmodium ${data.name}`,
         },
       })
       props.history.push('/dashboard/malaria/result')
     } catch (e) {
-      alert(e);
+      alert(e)
       dispatch({
         type: 'NOT_LOADING',
       })

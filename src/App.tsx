@@ -21,7 +21,6 @@ const App: React.FC = (): JSX.Element => {
       <div className="app">
         <Switch>
           <Route path="/dashboard" component={Dashboard} />
-          {/* <Route path="/test" component={} /> */}
           <Route
             exact={true}
             path="/sign-up"

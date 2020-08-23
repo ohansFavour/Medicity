@@ -21,16 +21,23 @@ const Result = (props: any) => {
           <div className="result__name">
             <span>
               {state.result.result === 0
-                ? `Patient is unlikely to have ${state.result.disease}`
-                : `Patient is likely to have ${state.result.disease}`}
+                ? `There is a ${
+                    state.result.percentage ? state.result.percentage : 'low'
+                  } chance of ${state.result.name ? state.result.name : 'the patient'} having ${
+                    state.result.disease
+                  }`
+                : `There is a ${
+                    state.result.percentage ? state.result.percentage : 'high'
+                  } chance of ${state.result.name ? state.result.name : 'the patient'} having ${
+                    state.result.disease
+                  }`}
             </span>
             <img alt="stethoscope" src={Stethoscope} />
           </div>
         ) : (
           <div className="result__number">
             <h3>{state.result.header}</h3>
-            <h1>{state.result.result}%</h1>
-            <h4>The system used an algorithm to compare patients drawings with a trained model</h4>
+            <h4>The system uses an algorithm to compare patients drawings with a trained model</h4>
           </div>
         )}
       </>

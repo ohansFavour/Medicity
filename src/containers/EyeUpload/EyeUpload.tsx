@@ -46,7 +46,10 @@ const EyeUpload = (props: any) => {
           const keys = Object.keys(obj)
           const values: any = Object.values(obj)
           const maxK = keys[values.indexOf(Math.max(...values))]
-          resolve(maxK)
+          resolve({
+            name: maxK,
+            value: Math.max(...values) * 100,
+          })
         }
       })
       xhr.open('POST', 'https://app.nanonets.com/api/v2/ImageCategorization/LabelFile/')
@@ -68,7 +71,8 @@ const EyeUpload = (props: any) => {
         payload: {
           result: 1,
           type: 'description',
-          disease: `${data}`,
+          percentage: `${data.value.toFixed(1)}%`,
+          disease: `${data.name}`,
         },
       })
       props.history.push('/dashboard/eye-defect/result')
@@ -88,7 +92,7 @@ const EyeUpload = (props: any) => {
   return (
     <div className="eyeUpload__container">
       <div className="eyeUpload">
-        <h2>Eye Disease Detection System</h2>
+        <h2>Eye Defect Detection System</h2>
         {state.isLoading ? (
           <Spinner />
         ) : (

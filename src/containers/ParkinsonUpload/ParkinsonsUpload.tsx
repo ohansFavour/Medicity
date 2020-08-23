@@ -79,8 +79,7 @@ const ParkinsonsUpload = (props: any) => {
         type: 'SET_RESULT',
         payload: {
           type: 'number',
-          result: categorizedResult,
-          header: 'Probability Of Patient Having Parkinson Disease',
+          header: `There is a ${categorizedResult} chance Of patient Having Parkinson Disease`,
         },
       })
       props.history.push('/dashboard/parkinsons/result')
