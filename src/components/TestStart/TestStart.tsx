@@ -24,11 +24,11 @@ const TestStart = (props: any) => {
           <p>{props.show}</p>
           <div className="testStart__step">
             <span className="testStart__label">1</span>{' '}
-            <span>Input images in respective image boxes.</span>
+            <span>{props.one? props.one: "Input images in respective image boxes."}</span>
           </div>
           <div className="testStart__step">
             <span className="testStart__label">2</span>{' '}
-            <span>Make sure images are in the right format.</span>
+            <span>{props.two? props.two: "Make sure images are in the right format."}</span>
           </div>
           <div className="testStart__step">
             <span className="testStart__label">3</span>{' '}

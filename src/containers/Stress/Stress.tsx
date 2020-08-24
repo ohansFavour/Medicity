@@ -8,6 +8,8 @@ const details = {
   header: 'Stress Detection System',
   details: 'This system detects stress through the patients details and symptoms',
   show: '',
+  one:"Answer given questions correctly.",
+  two: "Make sure details given are precise and in the right format.",
   img: [{ alt: ' ', src: Normal }],
 }
 const Stress = () => {

@@ -21,6 +21,8 @@ import CardioUpload from '../../containers/CardioUpload/CardioUpload'
 import StressUpload from '../../containers/StressUpload/StressUpload'
 import Malaria from '../../containers/Malaria/Malaria'
 import MalariaUpload from '../../containers/MalariaUpload/MalariaUpload'
+import Hypertension from '../../containers/Hypertension/Hypertension'
+import HypertensionUpload from '../../containers/HypertensionUpload/HypertensionUpload'
 
 const Dashboard = (props: any) => {
   return (
@@ -29,7 +31,7 @@ const Dashboard = (props: any) => {
       <Avatar />
       <Sidebar />
       <Switch>
-        <Route exact={true} path={`${props.match.path}`} component={AiDashboard}/>
+        <Route exact={true} path={`${props.match.path}`} component={AiDashboard} />
         <Route exact={true} path={`${props.match.path}/parkinsons`} component={Parkinsons} />
         <Route
           exact={true}
@@ -51,7 +53,7 @@ const Dashboard = (props: any) => {
           path={`${props.match.path}/pneumonia/upload`}
           component={PneumoniaUpload}
         />
-        
+
         <Route exact={true} path={`${props.match.path}/pneumonia/result`} component={TestResult} />
         <Route exact={true} path={`${props.match.path}/cardiovascular`} component={Cardio} />
         <Route
@@ -86,6 +88,18 @@ const Dashboard = (props: any) => {
         <Route exact={true} path={`${props.match.path}/stress`} component={Stress} />
         <Route exact={true} path={`${props.match.path}/stress/upload`} component={StressUpload} />
         <Route exact={true} path={`${props.match.path}/stress/result`} component={TestResult} />
+
+        <Route exact={true} path={`${props.match.path}/hypertension`} component={Hypertension} />
+        <Route
+          exact={true}
+          path={`${props.match.path}/hypertension/upload`}
+          component={HypertensionUpload}
+        />
+        <Route
+          exact={true}
+          path={`${props.match.path}/hypertension/result`}
+          component={TestResult}
+        />
       </Switch>
     </>
   )

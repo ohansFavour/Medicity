@@ -1,15 +1,15 @@
 import React from 'react'
-import { withRouter } from 'react-router-dom'
+import { withRouter} from 'react-router-dom'
 
 import Malaria from '../../assets/images/malaria.png'
 import Tuberculosis from '../../assets/images/Tuberculosis.png'
-// import Covid from '../../assets/images/covid19.png'
+import Covid from '../../assets/images/covid19.png'
 import Eye from '../../assets/images/eye.png'
 import Diab from '../../assets/images/diabetes.png'
 import Parkinson from '../../assets/images/parkinsons.png'
 import Cardio from '../../assets/images/cardio.png'
 import Pneumonia from '../../assets/images/pneumonia.png'
-// import Hypertension from '../../assets/images/hypertension.png'
+import Hypertension from '../../assets/images/hypertension.png'
 import Stress from '../../assets/images/stress.png'
 
 import './AiDashboard.scss'
@@ -35,25 +35,34 @@ const AiDashboard = (props: any) => {
             <img src={Tuberculosis} alt="tuberculosis" />
             <span>Tuberculosis Detection</span>
           </div>
-          {/* <div
+          <div
             className="aiDashboard__card"
             onClick={() => {
-              props.history.push('/dashboard/covid19')
+              window.location.assign('https://master.d2mbogtk0mwq0k.amplifyapp.com');
             }}
           >
             <img src={Covid} alt="covid" />
             <span>Covid19 Detection</span>
-          </div> */}
+          </div>
           <div
             className="aiDashboard__card"
             onClick={() => {
               props.history.push('/dashboard/malaria')
+             
             }}
           >
             <img src={Malaria} alt="malaria" />
             <span>Malaria Detection</span>
           </div>
-
+          <div
+            className="aiDashboard__card"
+            onClick={() => {
+              props.history.push('/dashboard/hypertension')
+            }}
+          >
+            <img src={Hypertension} alt="hypertension" />
+            <span>Hypertension Detection</span>
+          </div>
 
           <div
             className="aiDashboard__card"

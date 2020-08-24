@@ -6,6 +6,8 @@ import TestStart from '../../components/TestStart/TestStart'
 const details = {
   header: 'Cardiovascular Detection System',
   details: 'This system detects cardiovascular disease through the patients details and symptoms',
+  one:"Answer given questions correctly.",
+  two: "Make sure details given are precise and in the right format.",
   img: [{ alt: '', src: Cac }],
 }
 const Cardio = () => {
