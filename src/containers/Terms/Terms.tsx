@@ -9,7 +9,6 @@ const Terms = (props:any) => {
 
   const handleChanged= (e:any)=>{
    setChecked(e.target.checked)
-   console.log(checked);
    props.setIsChecked(!checked)
   }
 

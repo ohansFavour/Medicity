@@ -41,6 +41,9 @@ const CardioUpload = (props: any) => {
   }
   const handleChange = (event: any, func: any) => {
     const { value } = event.target
+    if (value === '') {
+      return func(value)
+    }
     if (!Number(value)) {
       return
     }
