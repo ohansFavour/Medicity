@@ -1,22 +1,21 @@
 .selected {
   background-color: #186a7b;
   color: white;
-  border-radius: 20px;
-  padding: 2px 4px;
+  border-radius: 10px;
   padding-left:10px;
-  width: 90px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 10px;
-  margin-bottom: 10px;
   font-size: 0.8em;
-  max-height: 30px;
+  max-height: 40px;
 
   .selected__cancel {
     color: #e26777;
     font-size: 1.1em;
     cursor: pointer;
     padding: 6px;
+    margin-left:10px;
   }
 }

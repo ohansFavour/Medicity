@@ -45,10 +45,10 @@ const AutoSuggest = () => {
       suggestion.name.toLowerCase().includes(userInput.toLowerCase())
     )
     if (!userInput && selected.length && selected.length === 1) {
-      return <Suggestion text="Try to add more than one symptom" />
+      return <Suggestion text="Try to add more than one symptom" setUserInput={setUserInput} />
     }
     if (!userInput) {
-      return <Suggestion text="Enter your symptoms" />
+      return <Suggestion text="Enter your symptoms" setUserInput={setUserInput}/>
     }
     if (userInput && availableSuggestions.length) {
       return (
@@ -58,10 +58,11 @@ const AutoSuggest = () => {
           setDiseases={setSelectedDisease}
           diseases={selectedDisease}
           keys={keys}
+          setUserInput={setUserInput}
         />
       )
     }
-    return <Suggestion text="No suggestions" />
+    return <Suggestion text="No suggestions" setUserInput={setUserInput} />
   }
 
   const deleteEntry = (name: any) => {

@@ -9,7 +9,10 @@
     opacity: 1;
     z-index: 100;
     padding-left: 20px;
-
+    height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+ 
   }
   span {
     font-size: 0.65em;
@@ -22,8 +25,8 @@
     margin-top: 5px;
     cursor: pointer;
     text-align: left;
-    &:hover{
-      font-weight:bold;
+    &:hover {
+      font-weight: bold;
     }
   }
 }
@@ -32,7 +35,5 @@
     width: 80%;
     max-width: 500px;
     margin: 0 auto;
-
-
   }
 }

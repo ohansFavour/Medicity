@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import './Checkup.scss'
 import DiagnosisStart from '../../containers/diagnosisStart/DiagnosisStart'
@@ -23,6 +23,10 @@ const Checkup = () => {
     setPageNumber(pageNumber - 1)
   }
   const isDisabled = pageNumber === 2 && isChecked === false
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pageNumber])
 
   return (
     <div className="checkup">
