@@ -4,11 +4,7 @@ import Phone from '../../assets/images/phone.png'
 import diseases from '../../assets/data/Diseases definitions.json'
 
 const Result = (props: any) => {
-  // console.log(typeof diseases['Affect_Labile'].Diseases)
-  // const data = ['Adhesion', 'Affect_Labile']
-  if (props.data) {
-    console.log(props.data[0])
-  }
+  
 
   return (
     <div className="resultPage">
@@ -49,7 +45,7 @@ const Result = (props: any) => {
                     </div>
                   )
                 } else {
-                  return <></>
+                  return null
                 }
               })}
             </>
