@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './AutoSuggest.scss'
 
 import Selected from '../Selected/Selected'
 import Suggestion from '../Suggestion/Suggestion'
 import Symptoms from '../../assets/data/Symptoms def.json'
 
-const AutoSuggest = () => {
+const AutoSuggest = (props: any) => {
   const [userInput, setUserInput] = useState('')
-  const [selected, setSelected] = useState<any>([])
+  const [chosen, setChosen] = useState<any>([])
   const [selectedDisease, setSelectedDisease] = useState<any>([])
 
   const handleChange = (e: any) => {
@@ -15,20 +15,21 @@ const AutoSuggest = () => {
   }
   const handlePush = (suggestion: any) => {
     setUserInput('')
-    const newSelected = [...selected]
-    const there = newSelected.filter((entry) => entry === suggestion)
-    if (there.length === 1) {
+    const newChosen = [...chosen]
+    const there2 = newChosen.filter((entry) => entry.name === suggestion.name)
+    if (there2.length === 1) {
       return
     }
-    newSelected.push(suggestion)
-    setSelected(newSelected)
+    newChosen.push(suggestion)
+    setChosen(newChosen)
   }
+
   const keys = Object.keys(Symptoms)
   const values = Object.values(Symptoms)
-  const onlySecond = values.map((entry: any) => {
+  const onlySecond = values.map((entry: any, index) => {
     const neededArray: any = Object.values(entry)
     const neededItem: any = neededArray[1].split('\n')
-    return neededItem.map((entry, index) => {
+    return neededItem.map((entry) => {
       return {
         name: entry,
         number: index,
@@ -44,11 +45,11 @@ const AutoSuggest = () => {
     const availableSuggestions = singleArr.filter((suggestion) =>
       suggestion.name.toLowerCase().includes(userInput.toLowerCase())
     )
-    if (!userInput && selected.length && selected.length === 1) {
+    if (!userInput && chosen.length && chosen.length === 1) {
       return <Suggestion text="Try to add more than one symptom" setUserInput={setUserInput} />
     }
     if (!userInput) {
-      return <Suggestion text="Enter your symptoms" setUserInput={setUserInput}/>
+      return <Suggestion text="Enter your symptoms" setUserInput={setUserInput} />
     }
     if (userInput && availableSuggestions.length) {
       return (
@@ -65,10 +66,14 @@ const AutoSuggest = () => {
     return <Suggestion text="No suggestions" setUserInput={setUserInput} />
   }
 
-  const deleteEntry = (name: any) => {
-    const newSelected = [...selected]
-    setSelected(newSelected.filter((entry) => entry !== name))
+  const deleteEntry = (item: any) => {
+    const newChosen = [...chosen]
+    setChosen(newChosen.filter((entry) => entry.name !== item.name))
   }
+
+  useEffect(() => {
+    props.setData(chosen)
+  }, [chosen, props])
 
   return (
     <div className="autoSuggest">
@@ -82,8 +87,8 @@ const AutoSuggest = () => {
         />
         <div className="autoSuggest__suggestion">{suggestion()}</div>
         <div className="autoSuggest__selected">
-          {selected.map((symptom: any, index: number) => (
-            <Selected name={symptom} delete={deleteEntry} key={index} />
+          {chosen.map((symptom: any, index: number) => (
+            <Selected delete={deleteEntry} key={index} entry={symptom} />
           ))}
         </div>
       </div>

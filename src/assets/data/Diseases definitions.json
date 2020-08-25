@@ -1,0 +1,427 @@
+{
+    "Adhesion": {
+        "Variable_name": "Adhesion",
+        "Diseases": "Adhesion",
+        "Definitions": "An adhesion is a band of scar tissue that binds two parts of your tissue that are not normally joined together. Adhesions may appear as thin sheets of tissue similar to plastic wrap or as thick fibrous bands."
+    },
+    "Affect_Labile": {
+        "Variable_name": "Affect_Labile",
+        "Diseases": "Affect Labile",
+        "Definitions": "This condition is characterised by an involuntary and uncontrollable reaction of laughter or crying that's disproportionate to an event.\nThe crying or laughing may start as a response to a situation, such as a sad film, but the feelings are more intense and last longer than expected. They're difficult or impossible to stop.\nAntidepressants and talk therapy can help."
+    },
+    "Alzheimers_Disease": {
+        "Variable_name": "Alzheimers_Disease",
+        "Diseases": "Alzheimers Disease",
+        "Definitions": "A progressive disease that destroys memory and other important mental functions.\nBrain cell connections and the cells themselves degenerate and die, eventually destroying memory and other important mental functions.\nMemory loss and confusion are the main symptoms.\nNo cure exists, but medication and management strategies may temporarily improve symptoms."
+    },
+    "Anemia": {
+        "Variable_name": "Anemia",
+        "Diseases": "Anemia",
+        "Definitions": "A condition in which the blood doesn't have enough healthy red blood cells.\nAnaemia results from a lack of red blood cells or dysfunctional red blood cells in the body. This leads to reduced oxygen flow to the body's organs.\nSymptoms may include fatigue, skin pallor, shortness of breath, light-headedness, dizziness or a fast heartbeat.\nTreatment depends on the underlying diagnosis. Iron supplements can be used for iron deficiency. Vitamin B supplements may be used for low vitamin levels. Blood transfusions can be used for blood loss. Medication to induce blood formation may be used if the body\u2019s blood production is reduced."
+    },
+    "Aphasia": {
+        "Variable_name": "Aphasia",
+        "Diseases": "Aphasia",
+        "Definitions": "A language disorder that affects a person's ability to communicate.\nIt can occur suddenly after a stroke or head injury or develop slowly from a growing brain tumour or disease.\nAphasia affects a person's ability to express and understand written and spoken language.\nOnce the underlying cause is treated, the main treatment for aphasia is speech therapy."
+    },
+    "Appendicitis": {
+        "Variable_name": "Appendicitis",
+        "Diseases": "Appendicitis",
+        "Definitions": "A condition in which the appendix becomes inflamed and filled with pus, causing pain.\nThe appendix is a pouch on the colon that has no known purpose.\nAppendicitis begins with pain near the belly button and then moves to the right side. This is often accompanied by nausea, vomiting, poor appetite, fever and chills.\nAppendicitis is usually treated with surgery and antibiotics. If untreated, the appendix can rupture and cause an abscess or systemic infection (sepsis)."
+    },
+    "Asthma": {
+        "Variable_name": "Asthma",
+        "Diseases": "Asthma",
+        "Definitions": "A condition in which a person's airways become inflamed, narrow and swell and produce extra mucus, which makes it difficult to breathe.\nAsthma can be minor or it can interfere with daily activities. In some cases, it may lead to a life-threatening attack.\nAsthma may cause difficulty breathing, chest pain, cough and wheezing. The symptoms may sometimes flare up.\nAsthma can usually be managed with rescue inhalers to treat symptoms and controller inhalers that prevent symptoms. Severe cases may require longer-acting inhalers that keep the airways open, as well as oral steroids."
+    },
+    "Athletes_Foot": {
+        "Variable_name": "Athletes_Foot",
+        "Diseases": "Athletes Foot",
+        "Definitions": "A fungal infection that usually begins between the toes.\nAthlete's foot commonly occurs in people whose feet have become very sweaty while confined within tight-fitting shoes.\nSymptoms include a scaly rash that usually causes itching, stinging and burning. People with athlete's foot can have moist, raw skin between their toes.\nTreatment involves topical anti-fungal medication."
+    },
+    "Biliary_Calculus": {
+        "Variable_name": "Biliary_Calculus",
+        "Diseases": "Biliary Calculus",
+        "Definitions": "A hardened deposit within the fluid in the gallbladder, a small organ under the liver.\nGallstones are hardened deposits of digestive fluid.\nGallstones can vary in size and number and may or may not cause symptoms.\nPeople who experience symptoms usually require gallbladder removal surgery. Gallstones that don't cause symptoms usually don't need treatment."
+    },
+    "Bipolar_Disorder": {
+        "Variable_name": "Bipolar_Disorder",
+        "Diseases": "Bipolar Disorder",
+        "Definitions": "A disorder associated with episodes of mood swings ranging from depressive lows to manic highs.\nThe exact cause of bipolar disorder isn\u2019t known, but a combination of genetics, environment and altered brain structure and chemistry may play a role.\nManic episodes may include symptoms such as high energy, reduced need for sleep and loss of touch with reality. Depressive episodes may include symptoms such as low energy, low motivation and loss of interest in daily activities. Mood episodes last days to months at a time and may also be associated with suicidal thoughts.\nTreatment is usually lifelong and often involves a combination of medications and psychotherapy. "
+    },
+    "Carcinoma_Prostate": {
+        "Variable_name": "Carcinoma_Prostate",
+        "Diseases": "Carcinoma Prostate",
+        "Definitions": "A cancer in a man's prostate, a small walnut-sized gland that produces seminal fluid.\nA man's prostate produces the seminal fluid that nourishes and transports sperm.\nSymptoms include difficulty with urination, but sometimes there are no symptoms at all.\nSome types of prostate cancer grow slowly. In some of these cases, monitoring is recommended. Other types are aggressive and require radiation, surgery, hormone therapy, chemotherapy or other treatments. PLEASE VISIT DOCTOR FOR MORE ENQUIRES"
+    },
+    "Chlamydia": {
+        "Variable_name": "Chlamydia",
+        "Diseases": "Chlamydia",
+        "Definitions": "A common, sexually transmitted infection that may not cause symptoms.\nChlamydia affects people of all ages but is most common in young women.\nMany who have chlamydia don't develop symptoms, but they can still infect others through sexual contact. Symptoms may include genital pain and discharge from the vagina or penis.\nAntibiotic therapy for the affected patient and the sexual partners of patients is recommended. Screening for other common sexually transmitted infections should also be performed. "
+    },
+    "Cholecystitis": {
+        "Variable_name": "Cholecystitis",
+        "Diseases": "Cholecystitis",
+        "Definitions": "Inflammation of the gallbladder, a small digestive organ beneath the liver.\nCholecystitis is often caused by stones that block the tube leading from the gallbladder to the small intestine.\nSevere pain in the upper-right belly and bloating are symptoms.\nTreatment includes a hospital stay and surgical removal. "
+    },
+    "Chronic_Alcoholic_Intoxication": {
+        "Variable_name": "Chronic_Alcoholic_Intoxication",
+        "Diseases": "Chronic Alcoholic Intoxication",
+        "Definitions": "Physical and mental damage in a child due to alcohol exposure while in the womb.\nThis condition can be prevented by abstaining from alcohol during pregnancy.\nSymptoms after drinking include slurred speech, incoordination, mood and behaviour changes. Sometimes, coma can occur.\nAlcohol intoxication is managed with rest, hydration and stopping alcohol use. Severe cases require hospital admission, intravenous fluids, observation and supportive care.\n"
+    },
+    "Chronic_Kidney_Failure": {
+        "Variable_name": "Chronic_Kidney_Failure",
+        "Diseases": "Chronic Kidney Failure",
+        "Definitions": "Longstanding disease of the kidneys leading to renal failure.\nThe kidneys filter waste and excess fluid from the blood. As kidneys fail, waste builds up.\nSymptoms develop slowly and aren't specific to the disease. Some people have no symptoms at all and are diagnosed by a lab test.\nMedication helps manage symptoms. In later stages, filtering the blood with a machine (dialysis) or a transplant may be required."
+    },
+    "Chronic_Obstructive_Airway_Disease": {
+        "Variable_name": "Chronic_Obstructive_Airway_Disease",
+        "Diseases": "Chronic Obstructive Airway Disease",
+        "Definitions": "A group of lung diseases that block airflow and make it difficult to breathe.\nEmphysema and chronic bronchitis are the most common conditions that make up COPD. Damage to the lungs from COPD can't be reversed.\nSymptoms include shortness of breath, wheezing or a chronic cough.\nRescue inhalers and inhaled or oral steroids can help control symptoms and minimise further damage."
+    },
+    "Common_Cold": {
+        "Variable_name": "Common_Cold",
+        "Diseases": "Common Cold",
+        "Definitions": "A common viral infection of the nose and throat.\nIn contrast to the flu, a common cold can be caused by many different types of viruses. The condition is generally harmless and symptoms usually resolve within two weeks.\nSymptoms include a runny nose, sneezing and congestion. High fever or severe symptoms are reasons to see a doctor, especially in children.\nMost people recover on their own within two weeks. Over-the-counter products and home remedies can help control symptoms."
+    },
+    "Coronary_Arteriosclerosis": {
+        "Variable_name": "Coronary_Arteriosclerosis",
+        "Diseases": "Coronary Arteriosclerosis",
+        "Definitions": "Damage or disease in the heart's major blood vessels.\nThe usual cause is the build-up of plaque. This causes coronary arteries to narrow, limiting blood flow to the heart.\nCoronary artery disease can range from no symptoms, to chest pain, to a heart attack.\nTreatments include lifestyle changes, medication, angioplasty and surgery.\n"
+    },
+    "Decubitus_Ulcer": {
+        "Variable_name": "Decubitus_Ulcer",
+        "Diseases": "Decubitus Ulcer",
+        "Definitions": "Decubitus Ulser also known as bed sores is an injury to skin and underlying tissue resulting from prolonged pressure on the skin.\nPeople most at risk are those with a condition that limits their ability to change positions.\nBed sores often develop on the heels, ankles, hips and tailbone. They can develop quickly.\nBed sores can be difficult to treat. Treatment includes cleaning and dressing the wound along with reducing pressure on the sore by frequent changes in position."
+    },
+    "Degenerative_Polyarthritis": {
+        "Variable_name": "Degenerative_Polyarthritis",
+        "Diseases": "Degenerative Polyarthritis",
+        "Definitions": "A type of arthritis that occurs when flexible tissue at the ends of bones wears down.\nThe wearing down of the protective tissue at the ends of bones (cartilage) occurs gradually and worsens over time.\nJoint pain in the hands, neck, lower back, knees or hips is the most common symptom.\nMedication, physiotherapy and sometimes surgery can help reduce pain and maintain joint movement."
+    },
+    "Deglutition_Disorder": {
+        "Variable_name": "Deglutition_Disorder",
+        "Diseases": "Deglutition Disorder",
+        "Definitions": "Disorders of the esophageal phase of deglutition can produce retrosternal pain, heartburn, regurgitation and vomiting, as well as laryngeal and respiratory signs. Esophageal motility disorders include lower achalasia, tumors, peptic strictures, inflammatory diseases, drug-induced ulcers, rings and webs."
+    },
+    "Dehydration": {
+        "Variable_name": "Dehydration",
+        "Diseases": "Dehydration",
+        "Definitions": "A dangerous loss of body fluid caused by illness, sweating or inadequate intake.\nDehydration occurs when you use or lose more fluid than you take in, and your body doesn't have enough water and other fluids to carry out its normal functions. If you don't replace lost fluids, you will get dehydrated"
+    },
+    "Depressive_Disorder": {
+        "Variable_name": "Depressive_Disorder",
+        "Diseases": "Depressive Disorder",
+        "Definitions": "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life.\nPossible causes include a combination of biological, psychological and social sources of distress. Increasingly, research suggests that these factors may cause changes in brain function, including altered activity of certain neural circuits in the brain.\nThe persistent feeling of sadness or loss of interest that characterises major depression can lead to a range of behavioural and physical symptoms. These may include changes in sleep, appetite, energy level, concentration, daily behaviour or self-esteem. Depression can also be associated with thoughts of suicide.\nThe mainstay of treatment is usually medication, talk therapy or a combination of the two. Increasingly, research suggests that these treatments may normalise brain changes associated with depression."
+    },
+    "Diarrhea": {
+        "Variable_name": "Diarrhea",
+        "Diseases": "Diarrhea",
+        "Definitions": "Loose, watery stools/ feces that occur more frequently than usual.\nDiarrhoea is usually caused by a virus, or sometimes, contaminated food. Less frequently, it can be a sign of another disorder, such as inflammatory bowel disease or irritable bowel syndrome.\nSymptoms include frequent, loose, watery stools and stomach pain.\nMost cases clear on their own. Some infections may need antibiotics. Severe cases can cause enough dehydration to require intravenous fluids."
+    },
+    "Diverticulosis": {
+        "Variable_name": "Diverticulosis",
+        "Diseases": "Diverticulosis",
+        "Definitions": "A condition in which small, bulging pouches develop in the digestive tract.\nIt's common in people over the age of 40.\nUsually, no symptoms occur, unless the diverticula become inflamed or infected (diverticulitis), which can result in fever and abdominal pain.\nTreatment generally isn't required unless there is inflammation (diverticulitis)."
+    },
+    "Embolism_Pulmonary": {
+        "Variable_name": "Embolism_Pulmonary",
+        "Diseases": "Embolism Pulmonary",
+        "Definitions": "A condition in which one or more arteries in the lungs become blocked by a blood clot.\nMost times, a pulmonary embolism is caused by blood clots that travel from the legs, or rarely, other parts of the body (deep vein thrombosis or DVT).\nSymptoms include shortness of breath, chest pain and cough.\nPrompt treatment to break up the clot greatly reduces the risk of death. This can be done with blood thinners and drugs or procedures. Compression stockings and physical activity can help prevent clots from forming in the first place.\n"
+    },
+    "Encephalopathy": {
+        "Variable_name": "Encephalopathy",
+        "Diseases": "Encephalopathy",
+        "Definitions": "A broad term for any brain disease that alters brain function or structure.\nCauses include infection, tumour and stroke.\nDeclining ability to reason and concentrate, memory loss, personality change, seizures and twitching are common symptoms.\nTreatment, such as anti-seizure medication, may help manage some symptoms. Antiviral medication may be used to treat encephalitis caused by a viral infection."
+    },
+    "Endocarditis": {
+        "Variable_name": "Endocarditis",
+        "Diseases": "Endocarditis",
+        "Definitions": "An infection of the heart's inner lining, usually involving the heart valves.\nEndocarditis usually occurs when germs from elsewhere in the body travel through the blood and attach to damaged areas of the heart. People with damaged or artificial heart valves or other heart conditions are most at risk.\nSymptoms vary based on the severity of the infection, but may include fevers, chills and fatigue.\nThe main treatment is antibiotics. Sometimes surgery is required.\n"
+    },
+    "Enteriris": {
+        "Variable_name": "Enteriris",
+        "Diseases": "Enteriris",
+        "Definitions": "Enteritis is inflammation of the small intestine. It is most commonly caused by food or drink contaminated with pathogenic microbes, such as serratia, but may have other causes such as NSAIDs, cocaine, radiation therapy as well as autoimmune conditions like Crohn's disease and coeliac disease."
+    },
+    "Epilepsy": {
+        "Variable_name": "Epilepsy",
+        "Diseases": "Epilepsy",
+        "Definitions": "A disorder in which nerve cell activity in the brain is disturbed, causing seizures.\nEpilepsy may occur as a result of a genetic disorder or an acquired brain injury, such as a trauma or stroke.\nDuring a seizure, a person experiences abnormal behaviour, symptoms and sensations, sometimes including loss of consciousness. There are few symptoms between seizures.\nEpilepsy is usually treated by medication and in some cases by surgery, devices or dietary changes.\n"
+    },
+    "Failure_Kidney": {
+        "Variable_name": "Failure_Kidney",
+        "Diseases": "Failure Kidney",
+        "Definitions": "Kidney failure is a condition in which the kidneys lose the ability to remove waste and balance fluids. Please Visit Doctor For More Enquires"
+    },
+    "Fibroid_Tumor": {
+        "Variable_name": "Fibroid_Tumor",
+        "Diseases": "Fibroid Tumor",
+        "Definitions": "Non-cancerous growths in the uterus that can develop during a woman's childbearing years.\nThe cause of fibroids isn't well understood. Risk factors include a family history of fibroids, obesity or early onset of puberty.\nSymptoms include heavy menstrual bleeding, prolonged periods and pelvic pain. In some cases, there are no symptoms.\nTreatments include medication and removal of the fibroid."
+    },
+    "Flu": {
+        "Variable_name": "Flu",
+        "Diseases": "Flu",
+        "Definitions": "A common viral infection that can be deadly, especially in high-risk groups.\nThe flu attacks the lungs, nose and throat. Young children, older adults, pregnant women and people with chronic disease or weak immune systems are at high risk.\nSymptoms include fever, chills, muscle aches, cough, congestion, runny nose, headaches and fatigue.\nThe flu is treated primarily with rest and fluid to let the body fight the infection on its own. Over-the-counter anti-inflammatory pain relievers may help with symptoms. An annual vaccine can help prevent the flu and limit its complications."
+    },
+    "Gastritis": {
+        "Variable_name": "Gastritis",
+        "Diseases": "Gastritis",
+        "Definitions": "Any of a group of conditions in which the stomach lining is inflamed.\nCauses include infection, injury, regular use of pain pills called NSAIDs and too much alcohol.\nSymptoms include upper stomach pain, nausea and vomiting. Sometimes, there are no symptoms.\nTreatment depends on the cause. Antibiotics and antacids might help.\n"
+    },
+    "Gastroenteritis": {
+        "Variable_name": "Gastroenteritis",
+        "Diseases": "Gastroenteritis",
+        "Definitions": "An intestinal infection marked by diarrhoea, cramps, nausea, vomiting and fever.\nStomach flu is typically spread by contact with an infected person or through contaminated food or water.\nDiarrhoea, cramps, nausea, vomiting and low-grade fever are common symptoms.\nAvoiding contaminated food and water and washing hands can often help prevent infection. Rest and rehydration are the mainstays of treatment."
+    },
+    "Gonorrhea": {
+        "Variable_name": "Gonorrhea",
+        "Diseases": "Gonorrhea",
+        "Definitions": "A sexually transmitted bacterial infection that, if untreated, may cause infertility.\nRegular screening can help detect instances when an infection is present despite having no symptoms.\nSymptoms include painful urination and abnormal discharge from the penis or vagina. Men may experience testicular pain and women may experience pain in the lower stomach. In some cases, gonorrhoea has no symptoms.\nGonorrhoea can be treated with antibiotics."
+    },
+    "Gout": {
+        "Variable_name": "Gout",
+        "Diseases": "Gout",
+        "Definitions": "A form of arthritis characterised by severe pain, redness and tenderness in joints.\nPain and inflammation occur when too much uric acid crystallises and deposits in the joints.\nSymptoms of gout include severe pain, redness and swelling in joints, often the big toe. Attacks can come suddenly, often at night.\nDuring an acute attack, anti-inflammatory medications can help relieve pain and shorten the length of the attack. Patients with chronic gout can use behavioural modification such as diet, exercise and decreased intake of alcohol to help minimise the frequency of attacks. Additionally, patients with chronic gout are often put on medications such as colchicine."
+    },
+    "Heart_Disease": {
+        "Variable_name": "Heart_Disease",
+        "Diseases": "Heart Disease",
+        "Definitions": "Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. Other heart conditions, such as those that affect your heart's muscle, valves or rhythm, also are considered forms of heart disease."
+    },
+    "Hepatitis": {
+        "Variable_name": "Hepatitis",
+        "Diseases": "Hepatitis",
+        "Definitions": "Hepatitis refers to an inflammatory condition of the liver. It's commonly caused by a viral infection, but there are other possible causes of hepatitis. These include autoimmune hepatitis and hepatitis that occurs as a secondary result of medications, drugs, toxins, and alcohol"
+    },
+    "Hernia_Hiatal": {
+        "Variable_name": "Hernia_Hiatal",
+        "Diseases": "Hernia Hiatal",
+        "Definitions": "A condition in which part of the stomach pushes up through the diaphragm muscle.\nIn hiatus hernia, part of the stomach pushes into the chest cavity. It enters via an opening where the food tube (oesophagus) passes on its way to the stomach.\nHiatus hernias can have no symptoms. In some cases, they may be associated with heartburn and abdominal discomfort.\nHiatus hernias may not require any treatment. Some are treated with drugs and a few types need surgical repair.\n"
+    },
+    "Herpes": {
+        "Variable_name": "Herpes",
+        "Diseases": "Herpes",
+        "Definitions": "Herpes results from infection with the herpes simplex virus (HSV). It causes sores or blisters to form in or around the mouth or genitals, as well as other symptoms.\n\nThere are two types of HSV:\n\nHSV-1 causes oral herpes, which usually affects the mouth and surrounding skin.\nHSV-2 causes genital herpes, which is usually sexually transmitted.\nIf a person has an HSV infection, they will have it for the rest of their life, though some people never develop symptoms. If symptoms occur, they reflect the type of HSV.\n\nThere is no cure for herpes, but treatment can help manage symptoms and reduce the likelihood of them recurring."
+    },
+    "Hiv_Aids": {
+        "Variable_name": "Hiv_Aids",
+        "Diseases": "Hiv Aids",
+        "Definitions": "HIV causes AIDS and interferes with the body's ability to fight infections.\nThe virus can be transmitted through contact with infected blood, semen or vaginal fluids.\nWithin a few weeks of HIV infection, flu-like symptoms such as fever, sore throat and fatigue can occur. Then the disease is usually asymptomatic until it progresses to AIDS. AIDS symptoms include weight loss, fever or night sweats, fatigue and recurrent infections.\nNo cure exists for AIDS, but strict adherence to antiretroviral regimens (ARVs) can dramatically slow the disease's progress as well as prevent secondary infections and complications.\n"
+    },
+    "Hyperbilirubinemia": {
+        "Variable_name": "Hyperbilirubinemia",
+        "Diseases": "Hyperbilirubinemia",
+        "Definitions": "Hyperbilirubinemia is a condition in which there is a build up of bilirubin in the blood, causing yellow discoloration of the eyes and skin, called jaundice. Low levels of bilirubin in the newborn is common and does not cause any trouble and will resolve on its own in the first week of life."
+    },
+    "Hypercholesterolemia": {
+        "Variable_name": "Hypercholesterolemia",
+        "Diseases": "Hypercholesterolemia",
+        "Definitions": "High amounts of cholesterol in the blood.\nHigh cholesterol can limit blood flow, increasing the risk of a heart attack or stroke. It's detected by a blood test.\nHigh cholesterol has no symptoms.\nTreatments include medication, a healthy diet and exercise.\n"
+    },
+    "Hyperglycemia": {
+        "Variable_name": "Hyperglycemia",
+        "Diseases": "Hyperglycemia",
+        "Definitions": "Hyperglycemia refers to high levels of sugar, or glucose, in the blood. It occurs when the body does not produce or use enough insulin, which is a hormone that absorbs glucose into cells for use as energy. High blood sugar is a leading indicator of diabetes."
+    },
+    "Hypothyroidism": {
+        "Variable_name": "Hypothyroidism",
+        "Diseases": "Hypothyroidism",
+        "Definitions": "A condition in which the thyroid gland doesn't produce enough thyroid hormone.\nHypothyroidism's deficiency of thyroid hormones can disrupt such things as heart rate, body temperature and all aspects of metabolism. Hypothyroidism is most prevalent in older women.\nMajor symptoms include fatigue, cold sensitivity, constipation, dry skin and unexplained weight gain.\nTreatment consists of thyroid hormone replacement."
+    },
+    "Ileus": {
+        "Variable_name": "Ileus",
+        "Diseases": "Ileus",
+        "Definitions": "Inability of the intestine (bowel) to contract normally and move waste out of the body.\nIleus may occur after abdominal or pelvic surgery. Certain drugs or diseases, such as Parkinson's, may also cause this condition.\nSymptoms include abdominal cramps, bloating, nausea, vomiting, constipation, difficulty passing wind and difficulty tolerating a normal diet.\nIleus is treated by resting the bowel (allowing only sips of liquids and no food by mouth), providing intravenous fluids and electrolytes as required. Sometimes, passing a tube from the nose to the stomach or small intestine to suck out air can relieve abdominal swelling while waiting for bowel function to return.\n"
+    },
+    "Incontinence": {
+        "Variable_name": "Incontinence",
+        "Diseases": "Incontinence",
+        "Definitions": "Loss of bladder control, varying from a slight loss of urine after sneezing, coughing or laughing, to complete inability to control urination."
+    },
+    "Infection_Urinary_Tract": {
+        "Variable_name": "Infection_Urinary_Tract",
+        "Diseases": "Infection Urinary Tract",
+        "Definitions": "An infection in any part of the urinary system, the kidneys, bladder or urethra.\nUrinary tract infections are more common in women. They usually occur in the bladder or urethra, but more serious infections involve the kidney.\nA bladder infection may cause pelvic pain, increased urge to urinate, pain with urination and blood in the urine. A kidney infection may cause back pain, nausea, vomiting and fever.\nCommon treatment is with antibiotics."
+    },
+    "Insufficiency_Renal": {
+        "Variable_name": "Insufficiency_Renal",
+        "Diseases": "Insufficiency Renal",
+        "Definitions": "A condition in which the kidneys lose the ability to remove waste and balance fluids.\n"
+    },
+    "Lymphoma": {
+        "Variable_name": "Lymphoma",
+        "Diseases": "Lymphoma",
+        "Definitions": "A cancer of the lymphatic system.\nThe lymphatic system is the body's disease-fighting network. It includes the lymph nodes, spleen, thymus gland and bone marrow. The main types of lymphoma are Hodgkin's lymphoma and non-Hodgkin's lymphoma.\nSymptoms include enlarged lymph nodes, fatigue and weight loss.\nTreatment may involve chemotherapy, medication, radiation therapy and rarely stem-cell transplant."
+    },
+    "Malaria": {
+        "Variable_name": "Malaria",
+        "Diseases": "Malaria",
+        "Definitions": "A disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes.\nThe severity of malaria varies based on the species of plasmodium.\nSymptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.\nPeople travelling to areas where malaria is common typically take protective drugs before, during and after their trip. Treatment includes antimalarial drugs."
+    },
+    "Malignant_Neoplasm_Of_Breast": {
+        "Variable_name": "Malignant_Neoplasm_Of_Breast",
+        "Diseases": "Malignant Neoplasm Of Breast (Breast Cancer)",
+        "Definitions": "A cancer that forms in the cells of the breasts.\nBreast cancer can occur in women and rarely in men.\nSymptoms of breast cancer include a lump in the breast, bloody discharge from the nipple and changes in the shape or texture of the nipple or breast.\nTreatment depends on the stage of cancer. It may consist of chemotherapy, radiation and surgery"
+    },
+    "Malignant_Neoplasm_Of_Prostate": {
+        "Variable_name": "Malignant_Neoplasm_Of_Prostate",
+        "Diseases": "Malignant Neoplasm Of Prostate (Prostate Cancer)",
+        "Definitions": "A cancer in a man's prostate, a small walnut-sized gland that produces seminal fluid.\nA man's prostate produces the seminal fluid that nourishes and transports sperm.\nSymptoms include difficulty with urination, but sometimes there are no symptoms at all.\nSome types of prostate cancer grow slowly. In some of these cases, monitoring is recommended. Other types are aggressive and require radiation, surgery, hormone therapy, chemotherapy or other treatments."
+    },
+    "Malignant_Tumor_Of_Colon": {
+        "Variable_name": "Malignant_Tumor_Of_Colon",
+        "Diseases": "Malignant Tumor Of Colon",
+        "Definitions": "Colorectal carcinoma is a cancer, or malignant tumor, of the large intestine, which may affect the colon or rectum. Typically, the colon is the upper five or six feet of the large intestine, and the rectum is the lower five to seven inches located above the anal canal."
+    },
+    "Meningitis": {
+        "Variable_name": "Meningitis",
+        "Diseases": "Meningitis",
+        "Definitions": "Inflammation of brain and spinal cord membranes, typically caused by an infection.\nMeningitis is usually caused by a viral infection but can also be bacterial or fungal. Vaccines can prevent some forms of meningitis.\nSymptoms include headache, fever and stiff neck.\nDepending on the cause, meningitis may get better on its own or it can be life-threatening, requiring urgent antibiotic treatment."
+    },
+    "Myocardial_Infarction": {
+        "Variable_name": "Myocardial_Infarction",
+        "Diseases": "Myocardial Infarction",
+        "Definitions": "A blockage of blood flow to the heart muscle.\nA heart attack is a medical emergency. A heart attack usually occurs when a blood clot blocks blood flow to the heart. Without blood, tissue loses oxygen and dies.\nSymptoms include tightness or pain in the chest, neck, back or arms, as well as fatigue, lightheadedness, abnormal heartbeat and anxiety. Women are more likely to have atypical symptoms than men.\nTreatment ranges from lifestyle changes and cardiac rehabilitation to medication, stents and bypass surgery."
+    },
+    "Neoplasm": {
+        "Variable_name": "Neoplasm",
+        "Diseases": "Neoplasm",
+        "Definitions": "A neoplasm  is a type of abnormal and excessive growth, called neoplasia, of tissue. The growth of a neoplasm is uncoordinated with that of the normal surrounding tissue, and persists in growing abnormally, even if the original trigger is removed. This abnormal growth usually forms a mass, when it may be called a tumor."
+    },
+    "Neoplasm_Metastasis": {
+        "Variable_name": "Neoplasm_Metastasis",
+        "Diseases": "Neoplasm Metastasis",
+        "Definitions": "Metastasis is the spread of cancer cells to new areas of the body, often by way of the lymph system or bloodstream. A metastatic cancer, or metastatic tumor, is one that has spread from the primary site of origin, or where it started, into different areas of the body.\n\nTumors formed from cells that have spread are called secondary tumors. The cancer may have spread to areas near the primary site, called regional metastasis, or to parts of the body that are farther away, called distant metastasis."
+    },
+    "Obesity": {
+        "Variable_name": "Obesity",
+        "Diseases": "Obesity",
+        "Definitions": "Obesity is a complex disease involving an excessive amount of body fat. Obesity isn't just a cosmetic concern. It is a medical problem that increases your risk of other diseases and health problems, such as heart disease, diabetes, high blood pressure and certain cancers. Obesity often results from taking in more calories than are burned by exercise and normal daily activities.\nObesity occurs when a person's body mass index is 30 or greater. The main symptom is excessive body fat, which increases the risk of serious health problems.\nThe mainstay of treatment is lifestyle changes such as diet and exercise."
+    },
+    "Obesity_Morbid": {
+        "Variable_name": "Obesity_Morbid",
+        "Diseases": "Morbid Obesity",
+        "Definitions": "Morbid obesity is a serious health condition that results from an abnormally high body mass index. A person with morbid obesity may have difficulty performing daily functions, such as walking and breathing, and is at increased risk for many serious health problems. In theory, anyone can become morbidly obese."
+    },
+    "Osteoporosis": {
+        "Variable_name": "Osteoporosis",
+        "Diseases": "Osteoporosis",
+        "Definitions": "A condition in which bones become weak and brittle.\nThe body constantly absorbs and replaces bone tissue. With osteoporosis, new bone creation doesn't keep up with old bone removal.\nMany people have no symptoms until they have a bone fracture.\nTreatment includes medication, a healthy diet and weight-bearing exercise to help prevent bone loss or strengthen already weak bones.\n"
+    },
+    "Paranoia": {
+        "Variable_name": "Paranoia",
+        "Diseases": "Paranoia",
+        "Definitions": "Paranoia is the feeling that you're being threatened in some way, such as people watching you or acting against you, even though there's no proof that it's true. It happens to a lot of people at some point. Even when you know that your concerns aren't based in reality, they can be troubling if they happen too often"
+    },
+    "Paroxysmal_Dyspnea": {
+        "Variable_name": "Paroxysmal_Dyspnea",
+        "Diseases": "Paroxysmal Dyspnea",
+        "Definitions": "Paroxysmal nocturnal dyspnea (PND) is a sensation of shortness of breath that awakens the patient, often after 1 or 2 hours of sleep, and is usually relieved in the upright position."
+    },
+    "Pericardial_Effusion_Body_Substance": {
+        "Variable_name": "Pericardial_Effusion_Body_Substance",
+        "Diseases": "Pericardial Effusion",
+        "Definitions": "A pericardial effusion is excess fluid between the heart and the sac surrounding the heart, known as the pericardium. Most are not harmful, but they sometimes can make the heart work poorly.\n\nThe pericardium is a tough and layered sac. When your heart beats, it slides easily within it. Normally, 2 to 3 tablespoons of clear, yellow pericardial fluid are between the sac's two layers. That fluid helps your heart move easier within the sac.\n\nIf you have a pericardial effusion, much more fluid sits there. Small ones may contain 100 milliliters of fluid. Very large ones may have more than 2 liters."
+    },
+    "Pid": {
+        "Variable_name": "Pid",
+        "Diseases": "Pelvic inflammatory disease (PID) ",
+        "Definitions": "Pelvic inflammatory disease (PID) is an infection of one or more of the upper reproductive organs, including the uterus, fallopian tubes and ovaries. Untreated PID can cause scar tissue and pockets of infected fluid (abscesses) to develop in the reproductive tract, which can cause permanent damage. It is an infection of the female reproductive organs.\nIt usually occurs when sexually transmitted bacteria spread from the vagina to the womb (uterus), fallopian tubes or ovaries.\nCommon symptoms include pelvic pain and fever. There may be vaginal discharge.\nTreatment includes antibiotics."
+    },
+    "Pneumonia": {
+        "Variable_name": "Pneumonia",
+        "Diseases": "Pneumonia",
+        "Definitions": "Pneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe.\nInfection that inflames air sacs in one or both lungs, which may fill with fluid.\nWith pneumonia, the air sacs may fill with fluid or pus. The infection can be life-threatening to anyone, but particularly to infants, children and people over 65.\nSymptoms include a cough with phlegm or pus, fever, chills and difficulty breathing.\nAntibiotics can treat many forms of pneumonia. Some forms of pneumonia can be prevented by vaccines."
+    },
+    "Primary_Malignant_Neoplasm": {
+        "Variable_name": "Primary_Malignant_Neoplasm",
+        "Diseases": "Malignant neoplasm ",
+        "Definitions": "Malignant neoplasm means that a tumor is cancerous. A doctor may suspect this diagnosis based on observation \u2014 such as during a colonoscopy \u2014 but usually a biopsy of the lesion or mass is needed to tell for sure whether it is malignant or benign (not cancerous)."
+    },
+    "Psychotic_Disorder": {
+        "Variable_name": "Psychotic_Disorder",
+        "Diseases": "Psychotic Disorder",
+        "Definitions": "Psychotic disorders are severe mental disorders that cause abnormal thinking and perceptions. People with psychoses lose touch with reality. Two of the main symptoms are delusions and hallucinations.\nA mental disorder characterised by a disconnection from reality.\nPsychosis may occur as a result of a psychiatric illness such as schizophrenia. In other instances, it may be caused by a health condition, medication or drug use.\nPossible symptoms include delusions, hallucinations, talking incoherently and agitation. The person with the condition usually isn't aware of his or her behaviour.\nTreatment may include medication and talk therapy."
+    },
+    "Respiratory_Failure": {
+        "Variable_name": "Respiratory_Failure",
+        "Diseases": "Respiratory Failure",
+        "Definitions": "Respiratory failure is a condition in which your blood doesn't have enough oxygen or has too much carbon dioxide. Sometimes you can have both problems. When you breathe, your lungs take in oxygen. The oxygen passes into your blood, which carries it to your organs."
+    },
+    "Schizophrenia": {
+        "Variable_name": "Schizophrenia",
+        "Diseases": "Schizophrenia",
+        "Definitions": "Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling.\nA disorder that affects a person's ability to think, feel and behave clearly.\nThe exact cause of schizophrenia isn't known, but a combination of genetics, environment and altered brain chemistry and structure may play a role.\nSchizophrenia is characterised by thoughts or experiences that seem out of touch with reality, disorganised speech or behaviour and decreased participation in daily activities. Difficulty with concentration and memory may also be present.\nTreatment is usually lifelong and often involves a combination of medications, psychotherapy and coordinated speciality care services."
+    },
+    "Sepsis_(Invertebrate)": {
+        "Variable_name": "Sepsis_(Invertebrate)",
+        "Diseases": "Sepsis (Invertebrate)",
+        "Definitions": "Sepsis is the result of a massive immune response to bacterial infection that gets into the blood. It often leads to organ failure or injury. Sepsis is a medical emergency that becomes fatal or life-changing for many of the individuals who develop this \u201cblood poisoning. \nA life-threatening complication of an infection.\nSepsis occurs when chemicals released in the bloodstream to fight an infection trigger inflammation throughout the body. This can cause a cascade of changes that damage multiple organ systems, leading them to fail, sometimes even resulting in death.\nSymptoms include fever, difficulty breathing, low blood pressure, fast heart rate and mental confusion.\nTreatment includes antibiotics and intravenous fluids."
+    },
+    "Sickle_Cell_Anemia": {
+        "Variable_name": "Sickle_Cell_Anemia",
+        "Diseases": "Sickle Cell Anemia",
+        "Definitions": "Sickle cell anemia is one of a group of disorders known as sickle cell disease. Sickle cell anemia is an inherited red blood cell disorder in which there aren't enough healthy red blood cells to carry oxygen throughout your body. Normally, the flexible, round red blood cells move easily through blood vessels.\nIt is a group of disorders that cause red blood cells to become misshapen and break down.\nWith sickle cell disease, an inherited group of disorders, red blood cells contort into a sickle shape. The cells die early, leaving a shortage of healthy red blood cells (sickle cell anaemia) and can block blood flow causing pain (sickle cell crisis).\nInfections, pain and fatigue are symptoms of sickle cell disease.\nTreatments include medication, blood transfusions and rarely a bone-marrow transplant."
+    },
+    "Sinusitis": {
+        "Variable_name": "Sinusitis",
+        "Diseases": "Sinusitis",
+        "Definitions": "Sinusitis is an inflammation or swelling of the tissue lining the sinuses. Healthy sinuses are filled with air. But when they become blocked and filled with fluid, germs can grow and cause an infection. Conditions that can cause sinus blockage include: The common cold.\nIt is a condition in which the cavities around the nasal passages become inflamed.\nAcute sinusitis can be triggered by a cold or allergies and may resolve on its own. Chronic sinusitis lasts up to eight weeks and may be caused by an infection or growths.\nSymptoms include headache, facial pain, runny nose and nasal congestion.\nAcute sinusitis usually doesn't require any treatment beyond symptomatic relief with pain medication, nasal decongestants and nasal saline rinses. Chronic sinusitis may require antibiotics.\n"
+    },
+    "Stroke": {
+        "Variable_name": "Stroke",
+        "Diseases": "Stroke",
+        "Definitions": "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes. \nA stroke is a medical emergency.\nSymptoms of stroke include trouble walking, speaking and understanding, as well as paralysis or numbness of the face, arm or leg.\nEarly treatment with medication like tPA (clot buster) can minimise brain damage. Other treatments focus on limiting complications and preventing additional strokes."
+    },
+    "Tachycardia_Sinus": {
+        "Variable_name": "Tachycardia_Sinus",
+        "Diseases": "Sinus tachycardia",
+        "Definitions": "Sinus tachycardia refers to a faster-than-usual heart rhythm. Your heart has a natural pacemaker called the sinus node, which generates electrical impulses that move through your heart muscle and cause it to contract, or beat."
+    },
+    "Thrombus": {
+        "Variable_name": "Thrombus",
+        "Diseases": "Thrombus",
+        "Definitions": "A thrombus is a blood clot that forms in a vessel and remains there. An embolism is a clot that travels from the site where it formed to another location in the body. Thrombi or emboli can lodge in a blood vessel and block the flow of blood in that location depriving tissues of normal blood flow and oxygen."
+    },
+    "Tonic_Clonic_Epilepsy": {
+        "Variable_name": "Tonic_Clonic_Epilepsy",
+        "Diseases": "Tonic Clonic Epilepsy",
+        "Definitions": "This a type of seizure that involves a loss of consciousness and violent muscle contractions.\nA grand mal seizure is usually caused by epilepsy, but may have other triggers, such as very low blood sugar, high fever or a stroke.\nThe seizure has two stages. Loss of consciousness occurs first and lasts about 10 to 20 seconds, followed by muscle convulsions that usually last for less than two minutes.\nMany people will have only one such seizure in their lifetime. Others may need daily anti-seizure medication to prevent recurrence."
+    },
+    "Tonsillitis": {
+        "Variable_name": "Tonsillitis",
+        "Diseases": "Tonsillitis",
+        "Definitions": "This is an inflammation of the two oval-shaped pads of tissue at the back of the throat.\nTonsillitis is usually caused by a viral infection but can be from a bacterial infection.\nSymptoms include sore throat, difficulty swallowing and tender lymph nodes.\nTreatment can range from home-care remedies to surgical removal."
+    },
+    "Transient_Ischemic_Attack": {
+        "Variable_name": "Transient_Ischemic_Attack",
+        "Diseases": "Transient Ischemic Attack",
+        "Definitions": "This is a brief stroke-like attack that, despite resolving within minutes to hours, still requires immediate medical attention to distinguish from an actual stroke.\nA transient ischaemic attack may be a warning sign of a future stroke.\nSymptoms include weakness on one side of the body, vision problems and slurred speech. These are transient and often resolve within 24 hours.\nTreatment includes medication, surgery and healthy lifestyle changes."
+    },
+    "Trichomoniasis": {
+        "Variable_name": "Trichomoniasis",
+        "Diseases": "Trichomoniasis",
+        "Definitions": "This is a sexually transmitted infection caused by a parasite.\nTrichomoniasis is among the most common sexually transmitted infections. Risk factors include multiple sexual partners and not using condoms during sex.\nTrichomoniasis causes a foul-smelling vaginal discharge, genital itching and painful urination in women. Men typically have no symptoms. Complications include a risk of premature delivery for pregnant women.\nTreatment involves both partners taking one large dose of a certain oral antibiotic."
+    },
+    "Tricuspid_Valve_Insufficiency": {
+        "Variable_name": "Tricuspid_Valve_Insufficiency",
+        "Diseases": "Tricuspid Valve Insufficiency",
+        "Definitions": "Tricuspid valve regurgitation is a condition in which the valve between the two right heart chambers (right ventricle and right atrium) doesn't close properly. The malfunctioning valve allows blood to flow back into your heart's upper right chamber (right atrium)."
+    },
+    "Tuberculosis": {
+        "Variable_name": "Tuberculosis",
+        "Diseases": "Tuberculosis",
+        "Definitions": "This is a potentially serious infectious bacterial disease that mainly affects the lungs.\nThe bacteria that cause TB are spread when an infected person coughs or sneezes.\nMost people infected with the bacteria that cause tuberculosis don't have symptoms. When symptoms do occur, they usually include a cough (sometimes blood-tinged), weight loss, night sweats and fever.\nTreatment isn't always required for those without symptoms. Patients with active symptoms will require a long course of treatment involving multiple antibiotics.\n"
+    },
+    "Typhoid": {
+        "Variable_name": "Typhoid",
+        "Diseases": "Typhoid",
+        "Definitions": "This a bacterial disease spread through contaminated food, water or close contact.\nVaccines are recommended in areas where typhoid fever is common.\nSymptoms include high fever, headache, stomach pain and either constipation or diarrhoea.\nTreatment includes antibiotics and fluids."
+    },
+    "Yellow_Fever": {
+        "Variable_name": "Yellow_Fever",
+        "Diseases": "Yellow Fever",
+        "Definitions": "This is a viral infection spread by a particular species of mosquito.\nYellow fever is spread by a species of mosquito common to areas of Africa and South America. Vaccination is recommended before travelling to certain areas.\nMild cases cause fever, headache, nausea and vomiting. Serious cases may cause fatal heart, liver and kidney conditions.\nNo specific treatment for the disease exists. Efforts focus on managing symptoms and limiting complications."
+    }
+}

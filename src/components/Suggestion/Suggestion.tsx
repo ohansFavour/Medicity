@@ -22,7 +22,7 @@ const Suggestion = (props: any) => {
   })
 
   const handleClick = (entry) => {
-    props.add(entry.name)
+    props.add(entry)
     props.setDiseases([...props.diseases, props.keys[entry.number]])
   }
   return (
