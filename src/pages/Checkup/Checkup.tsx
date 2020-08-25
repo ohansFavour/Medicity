@@ -173,14 +173,14 @@ const Checkup = () => {
             <div className="checkup__footer">
               {pageNumber === 7 ? (
                 <>
-                  <button
+                  {/* <button
                     // onClick={() => handlePageIncrease()}
                     style={{ cursor: 'pointer' }}
                     disabled={isDisabled}
                     className={`${isDisabled ? 'disabled' : ''}`}
                   >
                     Submit
-                  </button>
+                  </button> */}
                 </>
               ) : (
                 <>
