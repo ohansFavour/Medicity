@@ -100,3 +100,17 @@ input[type='range']:focus::-ms-fill-upper {
 #myRange {
   margin-right: unset;
 }
+
+@media screen and (min-width: 768px){
+  .age{
+  margin-bottom: 0px;
+  margin-top: 0;
+
+  }
+  input[type='range'] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 300px;
+    margin-bottom:0px;
+  }
+}
