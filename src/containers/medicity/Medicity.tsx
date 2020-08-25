@@ -14,12 +14,13 @@ const Medicity = () => {
         <div className="medicity__text">
           <h4>Your Quick Link to the Doctor </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra ante id augue
-            iaculis varius. Praesent sed lorem vitae leo tincidunt rhoncus. Mauris vel ipsum est.
-            Sed ornare nibh nec massa posuere semper. Aenean et suscipit magna, et placerat odio.
-            Suspendisse ac bibendum nisl. In hac habitasse platea dictumst. Etiam finibus porta
-            turpis, vel vestibulum felis feugiat vel. Aenean finibus, lectus vel mattis rutrum,
-            augue magna ultrices leo, vel pretium est magna eget leo. Quisque a fringilla est.
+            Medicity aids medical diagnosis via symptoms and reduction of medical error in Nigeria.
+            We have done this by creating an expert system which would help diagnose patients online
+            by just imputing their symptoms into the system and answering some few questions
+            regarding the symptoms that are occurring within the patient. <br/><br/>This project also tries to
+            solve the problem of miss diagnosis by doctors by creating several prediction systems
+            for various diseases which helps the doctors predict various diseases at the early stage
+            which in turn reduces the likelyhood of misdiagnosis of patients’ symptoms.
           </p>
         </div>
         <div className="medicity__video">

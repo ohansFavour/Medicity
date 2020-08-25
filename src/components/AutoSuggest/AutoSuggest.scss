@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
+  // border: solid red 1px;
   .autoSuggest__selected {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +41,7 @@ input[id='selected'] {
 
 @media screen and (min-width: 768px) {
   .autoSuggest {
-    margin-top: 40px;
+    margin-top:1px;
     .autoSuggest__selected {
       min-height: 140px;
       overflow-y: auto;
@@ -51,9 +52,9 @@ input[id='selected'] {
 @media screen and (min-width: 1024px) {
   input[id='selected'],
   .autoSuggest {
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
   }
 }

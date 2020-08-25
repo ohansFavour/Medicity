@@ -1,0 +1,1206 @@
+{
+    "Abdomen_Acute": {
+        "Symptom_variables": "Abdomen_Acute",
+        "Symptom explanation for users": "Severe abdominal pain\nSevere stomach ache"
+    },
+    "Abdominal_Tenderness": {
+        "Symptom_variables": "Abdominal_Tenderness",
+        "Symptom explanation for users": "Sore and tender abdomen\nStomach pain "
+    },
+    "Abnormally_Hard_Consistency": {
+        "Symptom_variables": "Abnormally_Hard_Consistency",
+        "Symptom explanation for users": "Hard stomach\nBlotted stomach\nStomach feels very hard"
+    },
+    "Abortion": {
+        "Symptom_variables": "Abortion",
+        "Symptom explanation for users": "Abortion"
+    },
+    "Abscess_Bacterial": {
+        "Symptom_variables": "Abscess_Bacterial",
+        "Symptom explanation for users": "Pus\nBoil on the skin"
+    },
+    "Absences_Finding": {
+        "Symptom_variables": "Absences_Finding",
+        "Symptom explanation for users": "Absences "
+    },
+    "Achalasia": {
+        "Symptom_variables": "Achalasia",
+        "Symptom explanation for users": "Difficulty swallowing food\nAlways regurgitating "
+    },
+    "Agitation": {
+        "Symptom_variables": "Agitation",
+        "Symptom explanation for users": "Anxiety\nNervoursness"
+    },
+    "Air_Fluid_Level": {
+        "Symptom_variables": "Air_Fluid_Level",
+        "Symptom explanation for users": "Bowel obstruction\nUnable to pass feaces"
+    },
+    "Alcohol_Binge_Episode": {
+        "Symptom_variables": "Alcohol_Binge_Episode",
+        "Symptom explanation for users": "Over Drinking alcohol \nDrank too much alcohol"
+    },
+    "Ambidexterity": {
+        "Symptom_variables": "Ambidexterity",
+        "Symptom explanation for users": "Ambidexterity"
+    },
+    "Angina_Pectoris": {
+        "Symptom_variables": "Angina_Pectoris",
+        "Symptom explanation for users": "Severe chest pain"
+    },
+    "Anorexia": {
+        "Symptom_variables": "Anorexia",
+        "Symptom explanation for users": "Under eating (Starvation)"
+    },
+    "Anosmia": {
+        "Symptom_variables": "Anosmia",
+        "Symptom explanation for users": "Loss of smell (Anosmia)"
+    },
+    "Aphagia": {
+        "Symptom_variables": "Aphagia",
+        "Symptom explanation for users": "Inability to swallow (Aphagia)\nRefusal to swallow food (Aphagia)"
+    },
+    "Apyrexial": {
+        "Symptom_variables": "Apyrexial",
+        "Symptom explanation for users": "Normal body temperature (Apyrexial)"
+    },
+    "Arthralgia": {
+        "Symptom_variables": "Arthralgia",
+        "Symptom explanation for users": "Pain in Joint"
+    },
+    "Ascites": {
+        "Symptom_variables": "Ascites",
+        "Symptom explanation for users": "Adominal swelling (Ascites)"
+    },
+    "Asterixis": {
+        "Symptom_variables": "Asterixis",
+        "Symptom explanation for users": "Tremor in the hands (Asterixis)"
+    },
+    "Asthenia": {
+        "Symptom_variables": "Asthenia",
+        "Symptom explanation for users": "Feeling week \nLack of energy"
+    },
+    "Ataxia": {
+        "Symptom_variables": "Ataxia",
+        "Symptom explanation for users": "Impaired balance\nImpaired coordination"
+    },
+    "Atypia": {
+        "Symptom_variables": "Atypia",
+        "Symptom explanation for users": "Cell abnormality (Atypia)"
+    },
+    "Aura": {
+        "Symptom_variables": "Aura",
+        "Symptom explanation for users": "Visual aura (seeing stars or flash of lights)"
+    },
+    "Bedridden": {
+        "Symptom_variables": "Bedridden",
+        "Symptom explanation for users": "Bedridden\nBeing confined to bed"
+    },
+    "Blackout": {
+        "Symptom_variables": "Blackout",
+        "Symptom explanation for users": "Having blackouts\nAlways fainting "
+    },
+    "Bleeding": {
+        "Symptom_variables": "Bleeding",
+        "Symptom explanation for users": "Bleeding"
+    },
+    "Blindness": {
+        "Symptom_variables": "Blindness",
+        "Symptom explanation for users": "Blindness"
+    },
+    "Blisters_Lesions": {
+        "Symptom_variables": "Blisters_Lesions",
+        "Symptom explanation for users": "Blisters / skin lesions"
+    },
+    "Bloating_Flatulence": {
+        "Symptom_variables": "Bloating_Flatulence",
+        "Symptom explanation for users": "Too much gas (Farting)"
+    },
+    "Bradycardia": {
+        "Symptom_variables": "Bradycardia",
+        "Symptom explanation for users": "Slow heart rate (Bradycardia)"
+    },
+    "Bradykinesia": {
+        "Symptom_variables": "Bradykinesia",
+        "Symptom explanation for users": "Slowness of movement"
+    },
+    "Breath_Sounds_Decreased": {
+        "Symptom_variables": "Breath_Sounds_Decreased",
+        "Symptom explanation for users": "Abnormal breath sounds"
+    },
+    "Breech_Presentation": {
+        "Symptom_variables": "Breech_Presentation",
+        "Symptom explanation for users": "Breech presentation"
+    },
+    "Bruit": {
+        "Symptom_variables": "Bruit",
+        "Symptom explanation for users": "Bruit"
+    },
+    "Burning_Sensation": {
+        "Symptom_variables": "Burning_Sensation",
+        "Symptom explanation for users": "Burning sensation in chest"
+    },
+    "Cardiomegaly": {
+        "Symptom_variables": "Cardiomegaly",
+        "Symptom explanation for users": "Enlarged heart"
+    },
+    "Cardiovascular_Event": {
+        "Symptom_variables": "Cardiovascular_Event",
+        "Symptom explanation for users": "Cardiovascular events"
+    },
+    "Cardiovascular_Finding": {
+        "Symptom_variables": "Cardiovascular_Finding",
+        "Symptom explanation for users": "General cardiovascular observations"
+    },
+    "Catatonia": {
+        "Symptom_variables": "Catatonia",
+        "Symptom explanation for users": "Abnormality of movement and behaviour"
+    },
+    "Charleyhorse": {
+        "Symptom_variables": "Charleyhorse",
+        "Symptom explanation for users": "Muscle spasm"
+    },
+    "Chest_Discomfort": {
+        "Symptom_variables": "Chest_Discomfort",
+        "Symptom explanation for users": "Chest Discomfort"
+    },
+    "Chest_Tightness": {
+        "Symptom_variables": "Chest_Tightness",
+        "Symptom explanation for users": "Chest Tightness"
+    },
+    "Chills_Shivering": {
+        "Symptom_variables": "Chills_Shivering",
+        "Symptom explanation for users": "Chills, Shivering"
+    },
+    "Cicatrisation": {
+        "Symptom_variables": "Cicatrisation",
+        "Symptom explanation for users": "Wound healing"
+    },
+    "Clonus": {
+        "Symptom_variables": "Clonus",
+        "Symptom explanation for users": "Involuntary muscle contractions"
+    },
+    "Clumsiness": {
+        "Symptom_variables": "Clumsiness",
+        "Symptom explanation for users": "Clumsiness"
+    },
+    "Colic_Abdominal": {
+        "Symptom_variables": "Colic_Abdominal",
+        "Symptom explanation for users": "Pain inside the abdomen or outer muscle wall"
+    },
+    "Confusion_Intellect_Impairment": {
+        "Symptom_variables": "Confusion_Intellect_Impairment",
+        "Symptom explanation for users": "Confusion, Intellect Impairment"
+    },
+    "Consciousness_Clear": {
+        "Symptom_variables": "Consciousness_Clear",
+        "Symptom explanation for users": "Clear consciousness clear"
+    },
+    "Constipation": {
+        "Symptom_variables": "Constipation",
+        "Symptom explanation for users": "Constipation"
+    },
+    "Cough": {
+        "Symptom_variables": "Cough",
+        "Symptom explanation for users": "Cough"
+    },
+    "Cough_Blood_Sputum": {
+        "Symptom_variables": "Cough_Blood_Sputum",
+        "Symptom explanation for users": "Coughing blood "
+    },
+    "Cushingoid_Facies": {
+        "Symptom_variables": "Cushingoid_Facies",
+        "Symptom explanation for users": "Cushingoid facies"
+    },
+    "Cushingoid_Habitus": {
+        "Symptom_variables": "Cushingoid_Habitus",
+        "Symptom explanation for users": "Cushingoid habitus"
+    },
+    "Cyanosis": {
+        "Symptom_variables": "Cyanosis",
+        "Symptom explanation for users": "Blue skin\nBluish skin"
+    },
+    "Deafness": {
+        "Symptom_variables": "Deafness",
+        "Symptom explanation for users": "Deafness"
+    },
+    "Debilitation": {
+        "Symptom_variables": "Debilitation",
+        "Symptom explanation for users": "Debilitation"
+    },
+    "Decompensation": {
+        "Symptom_variables": "Decompensation",
+        "Symptom explanation for users": "Decompensation"
+    },
+    "Dehydration": {
+        "Symptom_variables": "Dehydration",
+        "Symptom explanation for users": "Dehydration"
+    },
+    "Diarrhea": {
+        "Symptom_variables": "Diarrhea",
+        "Symptom explanation for users": "Diarrhea"
+    },
+    "Difficulty": {
+        "Symptom_variables": "Difficulty",
+        "Symptom explanation for users": "Difficulty"
+    },
+    "Difficulty_Passing_Urine": {
+        "Symptom_variables": "Difficulty_Passing_Urine",
+        "Symptom explanation for users": "Difficulty passing urine"
+    },
+    "Discomfort_Genitals": {
+        "Symptom_variables": "Discomfort_Genitals",
+        "Symptom explanation for users": "Discomfort in genitals"
+    },
+    "Disequilibrium": {
+        "Symptom_variables": "Disequilibrium",
+        "Symptom explanation for users": "Lack of equilibrium\u00a0"
+    },
+    "Distended_Abdomen": {
+        "Symptom_variables": "Distended_Abdomen",
+        "Symptom explanation for users": "Abdomen distension"
+    },
+    "Distress_Respiratory": {
+        "Symptom_variables": "Distress_Respiratory",
+        "Symptom explanation for users": "Respiratory Distress"
+    },
+    "Disturbed_Family": {
+        "Symptom_variables": "Disturbed_Family",
+        "Symptom explanation for users": "Disturbed family"
+    },
+    "Dizziness": {
+        "Symptom_variables": "Dizziness",
+        "Symptom explanation for users": "Dizziness"
+    },
+    "Dizzy_Spells": {
+        "Symptom_variables": "Dizzy_Spells",
+        "Symptom explanation for users": "Dizzy Spells"
+    },
+    "Drool": {
+        "Symptom_variables": "Drool",
+        "Symptom explanation for users": "Drooling"
+    },
+    "Drowsiness": {
+        "Symptom_variables": "Drowsiness",
+        "Symptom explanation for users": "Drowsiness"
+    },
+    "Dysarthria": {
+        "Symptom_variables": "Dysarthria",
+        "Symptom explanation for users": "Slurred speech\nSpeech disorder"
+    },
+    "Dysdiadochokinesia": {
+        "Symptom_variables": "Dysdiadochokinesia",
+        "Symptom explanation for users": "Dysdiadochokinesia"
+    },
+    "Dysesthesia": {
+        "Symptom_variables": "Dysesthesia",
+        "Symptom explanation for users": "Unpleasant sensation when touched"
+    },
+    "Dyspnea": {
+        "Symptom_variables": "Dyspnea",
+        "Symptom explanation for users": "Dyspnea"
+    },
+    "Dyspnea_On_Exertion": {
+        "Symptom_variables": "Dyspnea_On_Exertion",
+        "Symptom explanation for users": "Unnable to breath"
+    },
+    "Dysuria": {
+        "Symptom_variables": "Dysuria",
+        "Symptom explanation for users": "Dysuria"
+    },
+    "Ecchymosis": {
+        "Symptom_variables": "Ecchymosis",
+        "Symptom explanation for users": "Bruising"
+    },
+    "Egophony": {
+        "Symptom_variables": "Egophony",
+        "Symptom explanation for users": "Egophony"
+    },
+    "Emphysematous_Change": {
+        "Symptom_variables": "Emphysematous_Change",
+        "Symptom explanation for users": "Emphysematous"
+    },
+    "Energy_Increased": {
+        "Symptom_variables": "Energy_Increased",
+        "Symptom explanation for users": "Increased Energy"
+    },
+    "Enuresis": {
+        "Symptom_variables": "Enuresis",
+        "Symptom explanation for users": "Bedwetting"
+    },
+    "Erythema": {
+        "Symptom_variables": "Erythema",
+        "Symptom explanation for users": "Skin redness"
+    },
+    "Estrogen_Use": {
+        "Symptom_variables": "Estrogen_Use",
+        "Symptom explanation for users": "Lack of estrogen"
+    },
+    "Exhaustion": {
+        "Symptom_variables": "Exhaustion",
+        "Symptom explanation for users": "Exhaustion"
+    },
+    "Extrapyramidal_Sign": {
+        "Symptom_variables": "Extrapyramidal_Sign",
+        "Symptom explanation for users": "Sign of extrapyramidal"
+    },
+    "Extreme_Exhaustion": {
+        "Symptom_variables": "Extreme_Exhaustion",
+        "Symptom explanation for users": "Extreme exhaustion"
+    },
+    "Facial_Paresis": {
+        "Symptom_variables": "Facial_Paresis",
+        "Symptom explanation for users": "Loss of facial movement"
+    },
+    "Fall": {
+        "Symptom_variables": "Fall",
+        "Symptom explanation for users": "Fell down"
+    },
+    "Fatigue_Tiredness": {
+        "Symptom_variables": "Fatigue_Tiredness",
+        "Symptom explanation for users": "Fatigue, Tiredness"
+    },
+    "Fear_Of_Falling": {
+        "Symptom_variables": "Fear_Of_Falling",
+        "Symptom explanation for users": "Fear of Falling"
+    },
+    "Fecaluria": {
+        "Symptom_variables": "Fecaluria",
+        "Symptom explanation for users": "Fecaluria"
+    },
+    "Feces_In_Rectum": {
+        "Symptom_variables": "Feces_In_Rectum",
+        "Symptom explanation for users": "Feces in rectum"
+    },
+    "Feeling_Hopeless": {
+        "Symptom_variables": "Feeling_Hopeless",
+        "Symptom explanation for users": "Feeling hopeless"
+    },
+    "Feeling_Strange": {
+        "Symptom_variables": "Feeling_Strange",
+        "Symptom explanation for users": "Feeling strange"
+    },
+    "Feeling_Suicidal": {
+        "Symptom_variables": "Feeling_Suicidal",
+        "Symptom explanation for users": "Feeling suicidal"
+    },
+    "Fever": {
+        "Symptom_variables": "Fever",
+        "Symptom explanation for users": "Fever\nFever between 98 and 100f (30 to 38C)\nFever temperature not measured\nFever >= 40C\nFeel feverish"
+    },
+    "Flare": {
+        "Symptom_variables": "Flare",
+        "Symptom explanation for users": "Having flares"
+    },
+    "Food_Intolerance": {
+        "Symptom_variables": "Food_Intolerance",
+        "Symptom explanation for users": "Food intolerance"
+    },
+    "Formication": {
+        "Symptom_variables": "Formication",
+        "Symptom explanation for users": "Pins and needles "
+    },
+    "Frail": {
+        "Symptom_variables": "Frail",
+        "Symptom explanation for users": "Feeling frail"
+    },
+    "General_Discomfort": {
+        "Symptom_variables": "General_Discomfort",
+        "Symptom explanation for users": "General discomfort"
+    },
+    "General_Unsteadiness": {
+        "Symptom_variables": "General_Unsteadiness",
+        "Symptom explanation for users": "General unsteadiness"
+    },
+    "Gravida_0": {
+        "Symptom_variables": "Gravida_0",
+        "Symptom explanation for users": "Gravida"
+    },
+    "Groggy": {
+        "Symptom_variables": "Groggy",
+        "Symptom explanation for users": "Feeling dazed"
+    },
+    "Guaiac_Positive": {
+        "Symptom_variables": "Guaiac_Positive",
+        "Symptom explanation for users": "Positive guaiac"
+    },
+    "Gurgle": {
+        "Symptom_variables": "Gurgle",
+        "Symptom explanation for users": "Gurgle"
+    },
+    "Haemoptysis": {
+        "Symptom_variables": "Haemoptysis",
+        "Symptom explanation for users": "Coughing up blood"
+    },
+    "Haemorrhage": {
+        "Symptom_variables": "Haemorrhage",
+        "Symptom explanation for users": "Haemorrhage"
+    },
+    "Hallucinations_Auditory": {
+        "Symptom_variables": "Hallucinations_Auditory",
+        "Symptom explanation for users": "Auditory hallucinations"
+    },
+    "Hallucinations_Visual": {
+        "Symptom_variables": "Hallucinations_Visual",
+        "Symptom explanation for users": "Visual hallucinations"
+    },
+    "Has_Religious_Belief": {
+        "Symptom_variables": "Has_Religious_Belief",
+        "Symptom explanation for users": "Religious beliefs"
+    },
+    "Headaches": {
+        "Symptom_variables": "Headaches",
+        "Symptom explanation for users": "Headache"
+    },
+    "Heartburn": {
+        "Symptom_variables": "Heartburn",
+        "Symptom explanation for users": "Heartburn"
+    },
+    "Hematocrit_Decreased": {
+        "Symptom_variables": "Hematocrit_Decreased",
+        "Symptom explanation for users": "Low hematocrit"
+    },
+    "Hematuria": {
+        "Symptom_variables": "Hematuria",
+        "Symptom explanation for users": "Blood in urine"
+    },
+    "Heme_Positive": {
+        "Symptom_variables": "Heme_Positive",
+        "Symptom explanation for users": "Blood in stool/feaces "
+    },
+    "Hemianopsia_Homonymous": {
+        "Symptom_variables": "Hemianopsia_Homonymous",
+        "Symptom explanation for users": "Hemianopsia homonymous"
+    },
+    "Hemiplegia": {
+        "Symptom_variables": "Hemiplegia",
+        "Symptom explanation for users": "Hemiplegia"
+    },
+    "Hemodynamically_Stable": {
+        "Symptom_variables": "Hemodynamically_Stable",
+        "Symptom explanation for users": "Stable heartbeat"
+    },
+    "Hepatosplenomegaly": {
+        "Symptom_variables": "Hepatosplenomegaly",
+        "Symptom explanation for users": "Swelling of liver"
+    },
+    "Hirsutism": {
+        "Symptom_variables": "Hirsutism",
+        "Symptom explanation for users": "Hirsutism"
+    },
+    "History_Of_Blackout": {
+        "Symptom_variables": "History_Of_Blackout",
+        "Symptom explanation for users": "History of blackouts"
+    },
+    "Hoard": {
+        "Symptom_variables": "Hoard",
+        "Symptom explanation for users": "Hoarding"
+    },
+    "Hoarseness": {
+        "Symptom_variables": "Hoarseness",
+        "Symptom explanation for users": "Impaired voice"
+    },
+    "Homelessness": {
+        "Symptom_variables": "Homelessness",
+        "Symptom explanation for users": "Homelessness"
+    },
+    "Hot_Flush": {
+        "Symptom_variables": "Hot_Flush",
+        "Symptom explanation for users": "Hot flushes"
+    },
+    "Hydropneumothorax": {
+        "Symptom_variables": "Hydropneumothorax",
+        "Symptom explanation for users": "Hydropneumothorax"
+    },
+    "Hypercapnia": {
+        "Symptom_variables": "Hypercapnia",
+        "Symptom explanation for users": "Hypercapnia"
+    },
+    "Hyperemesis": {
+        "Symptom_variables": "Hyperemesis",
+        "Symptom explanation for users": "Hyperemesis"
+    },
+    "Hyperhidrosis_Disorder": {
+        "Symptom_variables": "Hyperhidrosis_Disorder",
+        "Symptom explanation for users": "Hyperhidrosis disorder"
+    },
+    "Hyperkalemia": {
+        "Symptom_variables": "Hyperkalemia",
+        "Symptom explanation for users": "High potassium"
+    },
+    "Hypersomnia": {
+        "Symptom_variables": "Hypersomnia",
+        "Symptom explanation for users": "Excessive sleepiness"
+    },
+    "Hypersomnolence": {
+        "Symptom_variables": "Hypersomnolence",
+        "Symptom explanation for users": "Excessive drowsiness"
+    },
+    "Hypertonicity": {
+        "Symptom_variables": "Hypertonicity",
+        "Symptom explanation for users": "Hypertonia"
+    },
+    "Hypoalbuminemia": {
+        "Symptom_variables": "Hypoalbuminemia",
+        "Symptom explanation for users": "Hypoalbuminemia"
+    },
+    "Hypokinesia": {
+        "Symptom_variables": "Hypokinesia",
+        "Symptom explanation for users": "Slow movement"
+    },
+    "Hypometabolism": {
+        "Symptom_variables": "Hypometabolism",
+        "Symptom explanation for users": "Hypometabolism"
+    },
+    "Hyponatremia": {
+        "Symptom_variables": "Hyponatremia",
+        "Symptom explanation for users": "Low soduim in blood"
+    },
+    "Hypotension": {
+        "Symptom_variables": "Hypotension",
+        "Symptom explanation for users": "Hypotension"
+    },
+    "Hypothermia_Natural": {
+        "Symptom_variables": "Hypothermia_Natural",
+        "Symptom explanation for users": "Hypothemia"
+    },
+    "Hypotonic": {
+        "Symptom_variables": "Hypotonic",
+        "Symptom explanation for users": "Hypotonic"
+    },
+    "Hypoxemia": {
+        "Symptom_variables": "Hypoxemia",
+        "Symptom explanation for users": "Low oxygen in blood"
+    },
+    "Immobile": {
+        "Symptom_variables": "Immobile",
+        "Symptom explanation for users": "Immobile"
+    },
+    "Intermenstrual_Heavy_Bleeding": {
+        "Symptom_variables": "Intermenstrual_Heavy_Bleeding",
+        "Symptom explanation for users": "Intermenstrual heavy bleeding"
+    },
+    "Intoxication": {
+        "Symptom_variables": "Intoxication",
+        "Symptom explanation for users": "Intoxicated"
+    },
+    "Irritable_Mood": {
+        "Symptom_variables": "Irritable_Mood",
+        "Symptom explanation for users": "Irritable moods"
+    },
+    "Jugular_Venous_Distention": {
+        "Symptom_variables": "Jugular_Venous_Distention",
+        "Symptom explanation for users": "Jugular venous distention"
+    },
+    "Large_For_Dates_Fetus": {
+        "Symptom_variables": "Large_For_Dates_Fetus",
+        "Symptom explanation for users": "Large for dates fetus"
+    },
+    "Left_Atrial_Hypertrophy": {
+        "Symptom_variables": "Left_Atrial_Hypertrophy",
+        "Symptom explanation for users": "Left atrial hypertrophy"
+    },
+    "Lethargy": {
+        "Symptom_variables": "Lethargy",
+        "Symptom explanation for users": "Diminished energy"
+    },
+    "Lightheadedness": {
+        "Symptom_variables": "Lightheadedness",
+        "Symptom explanation for users": "Light headedness\nFeeling dizzy "
+    },
+    "Lip_Smacking": {
+        "Symptom_variables": "Lip_Smacking",
+        "Symptom explanation for users": "Smaking of lips"
+    },
+    "Loose_Associations": {
+        "Symptom_variables": "Loose_Associations",
+        "Symptom explanation for users": "Loose associations"
+    },
+    "Loss_Appetite": {
+        "Symptom_variables": "Loss_Appetite",
+        "Symptom explanation for users": "Loss of Apetite"
+    },
+    "Loss_Smell": {
+        "Symptom_variables": "Loss_Smell",
+        "Symptom explanation for users": "Loss of Smell  "
+    },
+    "Lung_Nodule": {
+        "Symptom_variables": "Lung_Nodule",
+        "Symptom explanation for users": "Mass in the lungs"
+    },
+    "Malaise": {
+        "Symptom_variables": "Malaise",
+        "Symptom explanation for users": "General discomfort"
+    },
+    "Mass_In_Breast": {
+        "Symptom_variables": "Mass_In_Breast",
+        "Symptom explanation for users": "Mass in breast\nFeeling lump on breast "
+    },
+    "Mass_Of_Body_Structure": {
+        "Symptom_variables": "Mass_Of_Body_Structure",
+        "Symptom explanation for users": "Mass of body structure"
+    },
+    "Mediastinal_Shift": {
+        "Symptom_variables": "Mediastinal_Shift",
+        "Symptom explanation for users": "Mediastinal shift"
+    },
+    "Mental_Status_Changes": {
+        "Symptom_variables": "Mental_Status_Changes",
+        "Symptom explanation for users": "Changes in mental state"
+    },
+    "Moan": {
+        "Symptom_variables": "Moan",
+        "Symptom explanation for users": "Moaning "
+    },
+    "Monoclonal": {
+        "Symptom_variables": "Monoclonal",
+        "Symptom explanation for users": "Monoclonal"
+    },
+    "Mood_Depressed": {
+        "Symptom_variables": "Mood_Depressed",
+        "Symptom explanation for users": "Depressed mood"
+    },
+    "Moody": {
+        "Symptom_variables": "Moody",
+        "Symptom explanation for users": "Moody "
+    },
+    "Motor_Retardation": {
+        "Symptom_variables": "Motor_Retardation",
+        "Symptom explanation for users": "Slow to think"
+    },
+    "Murphys_Sign": {
+        "Symptom_variables": "Murphys_Sign",
+        "Symptom explanation for users": "Murphys sign"
+    },
+    "Muscle_Hypotonia": {
+        "Symptom_variables": "Muscle_Hypotonia",
+        "Symptom explanation for users": "Weak muscle tone"
+    },
+    "Muscle_Twitch": {
+        "Symptom_variables": "Muscle_Twitch",
+        "Symptom explanation for users": "Twitchy muscles"
+    },
+    "Myalgia": {
+        "Symptom_variables": "Myalgia",
+        "Symptom explanation for users": "Muscle pains"
+    },
+    "Mydriasis": {
+        "Symptom_variables": "Mydriasis",
+        "Symptom explanation for users": "Dilated pupils"
+    },
+    "Myoclonus": {
+        "Symptom_variables": "Myoclonus",
+        "Symptom explanation for users": "Jerk in muscles"
+    },
+    "Nasal_Flaring": {
+        "Symptom_variables": "Nasal_Flaring",
+        "Symptom explanation for users": "Nasal flaring"
+    },
+    "Nausea": {
+        "Symptom_variables": "Nausea",
+        "Symptom explanation for users": "Nausea"
+    },
+    "Neologism": {
+        "Symptom_variables": "Neologism",
+        "Symptom explanation for users": "Neologism"
+    },
+    "Nightmare": {
+        "Symptom_variables": "Nightmare",
+        "Symptom explanation for users": "Nightmares"
+    },
+    "No_Status_Change": {
+        "Symptom_variables": "No_Status_Change",
+        "Symptom explanation for users": "No changes in symptoms over time"
+    },
+    "Nonsmoker": {
+        "Symptom_variables": "Nonsmoker",
+        "Symptom explanation for users": "Non smoker"
+    },
+    "Numbness": {
+        "Symptom_variables": "Numbness",
+        "Symptom explanation for users": "Numbness"
+    },
+    "Oliguria": {
+        "Symptom_variables": "Oliguria",
+        "Symptom explanation for users": "Low urine output"
+    },
+    "Orthopnea": {
+        "Symptom_variables": "Orthopnea",
+        "Symptom explanation for users": "Orthopnea"
+    },
+    "Orthostasis": {
+        "Symptom_variables": "Orthostasis",
+        "Symptom explanation for users": "Low blood pressure"
+    },
+    "Overweight": {
+        "Symptom_variables": "Overweight",
+        "Symptom explanation for users": "Overweight"
+    },
+    "Pain": {
+        "Symptom_variables": "Pain",
+        "Symptom explanation for users": "Pain"
+    },
+    "Pain_Abdominal": {
+        "Symptom_variables": "Pain_Abdominal",
+        "Symptom explanation for users": "Abdominal Pain"
+    },
+    "Pain_Backlow_Back_Pain": {
+        "Symptom_variables": "Pain_Backlow_Back_Pain",
+        "Symptom explanation for users": "Back pain"
+    },
+    "Pain_Chest": {
+        "Symptom_variables": "Pain_Chest",
+        "Symptom explanation for users": "Chest Oain"
+    },
+    "Pain_Neck": {
+        "Symptom_variables": "Pain_Neck",
+        "Symptom explanation for users": "Neck Pain"
+    },
+    "Painful_Swallowing": {
+        "Symptom_variables": "Painful_Swallowing",
+        "Symptom explanation for users": "Painful Swallowing"
+    },
+    "Pallor": {
+        "Symptom_variables": "Pallor",
+        "Symptom explanation for users": "Pale skin"
+    },
+    "Palpitation": {
+        "Symptom_variables": "Palpitation",
+        "Symptom explanation for users": "Racing / pounding heart"
+    },
+    "Panic": {
+        "Symptom_variables": "Panic",
+        "Symptom explanation for users": "Panic"
+    },
+    "Pansystolic_Murmur": {
+        "Symptom_variables": "Pansystolic_Murmur",
+        "Symptom explanation for users": "Pansystolic murmur"
+    },
+    "Para_1": {
+        "Symptom_variables": "Para_1",
+        "Symptom explanation for users": ""
+    },
+    "Para_2": {
+        "Symptom_variables": "Para_2",
+        "Symptom explanation for users": ""
+    },
+    "Paralysis": {
+        "Symptom_variables": "Paralysis",
+        "Symptom explanation for users": "Paralysis"
+    },
+    "Paraparesis": {
+        "Symptom_variables": "Paraparesis",
+        "Symptom explanation for users": "Leg paralysis"
+    },
+    "Paresis": {
+        "Symptom_variables": "Paresis",
+        "Symptom explanation for users": "Paresis"
+    },
+    "Paresthesia": {
+        "Symptom_variables": "Paresthesia",
+        "Symptom explanation for users": "Paresthesia"
+    },
+    "Passed_Stones": {
+        "Symptom_variables": "Passed_Stones",
+        "Symptom explanation for users": "Kidney stones"
+    },
+    "Patient_Non_Compliance": {
+        "Symptom_variables": "Patient_Non_Compliance",
+        "Symptom explanation for users": "Non compliance to prescription"
+    },
+    "Pericardial_Friction_Rub": {
+        "Symptom_variables": "Pericardial_Friction_Rub",
+        "Symptom explanation for users": "Pericardial friction rub"
+    },
+    "Phonophobia": {
+        "Symptom_variables": "Phonophobia",
+        "Symptom explanation for users": "Phonophobia"
+    },
+    "Photophobia": {
+        "Symptom_variables": "Photophobia",
+        "Symptom explanation for users": "Sensitive to light"
+    },
+    "Pin_Point_Pupils": {
+        "Symptom_variables": "Pin_Point_Pupils",
+        "Symptom explanation for users": "Pinpoint pupils"
+    },
+    "Pneumatouria": {
+        "Symptom_variables": "Pneumatouria",
+        "Symptom explanation for users": "Air bubbles when urinating "
+    },
+    "Polydypsia": {
+        "Symptom_variables": "Polydypsia",
+        "Symptom explanation for users": "Excessive thirst "
+    },
+    "Polymyalgia": {
+        "Symptom_variables": "Polymyalgia",
+        "Symptom explanation for users": "Polymyalgia"
+    },
+    "Polyuria": {
+        "Symptom_variables": "Polyuria",
+        "Symptom explanation for users": "Excessive Urination"
+    },
+    "Poor_Impaired_Vision": {
+        "Symptom_variables": "Poor_Impaired_Vision",
+        "Symptom explanation for users": "Imparied/poor vision"
+    },
+    "Posturing": {
+        "Symptom_variables": "Posturing",
+        "Symptom explanation for users": "Posturing"
+    },
+    "Presence_Of_Q_Wave": {
+        "Symptom_variables": "Presence_Of_Q_Wave",
+        "Symptom explanation for users": "Presence of Q wave"
+    },
+    "Pressure_Chest": {
+        "Symptom_variables": "Pressure_Chest",
+        "Symptom explanation for users": "Pressure in chest"
+    },
+    "Previous_Pregnancies_2": {
+        "Symptom_variables": "Previous_Pregnancies_2",
+        "Symptom explanation for users": "Previous pregnancies (2)"
+    },
+    "Primigravida": {
+        "Symptom_variables": "Primigravida",
+        "Symptom explanation for users": "Pregnant for the first time"
+    },
+    "Prodrome": {
+        "Symptom_variables": "Prodrome",
+        "Symptom explanation for users": "Prodrome"
+    },
+    "Prostatism": {
+        "Symptom_variables": "Prostatism",
+        "Symptom explanation for users": "Prostatism"
+    },
+    "Proteinemia": {
+        "Symptom_variables": "Proteinemia",
+        "Symptom explanation for users": "Presence of protein in blood"
+    },
+    "Pruritus": {
+        "Symptom_variables": "Pruritus",
+        "Symptom explanation for users": "Pruritus"
+    },
+    "Pulsus_Paradoxus": {
+        "Symptom_variables": "Pulsus_Paradoxus",
+        "Symptom explanation for users": "Pulsus paradoxus"
+    },
+    "Pustule": {
+        "Symptom_variables": "Pustule",
+        "Symptom explanation for users": "Pimples"
+    },
+    "Qt_Interval_Prolonged": {
+        "Symptom_variables": "Qt_Interval_Prolonged",
+        "Symptom explanation for users": "Long Qt syndrome"
+    },
+    "R_Wave_Feature": {
+        "Symptom_variables": "R_Wave_Feature",
+        "Symptom explanation for users": "R wave feature"
+    },
+    "Rale": {
+        "Symptom_variables": "Rale",
+        "Symptom explanation for users": "Rale"
+    },
+    "Rambling_Speech": {
+        "Symptom_variables": "Rambling_Speech",
+        "Symptom explanation for users": "Rambling speech"
+    },
+    "Rash_Redness_Swelling_Itching": {
+        "Symptom_variables": "Rash_Redness_Swelling_Itching",
+        "Symptom explanation for users": "Rash, redness, swelling, itching"
+    },
+    "Renal_Angle_Tenderness": {
+        "Symptom_variables": "Renal_Angle_Tenderness",
+        "Symptom explanation for users": "Renal angle tenderness"
+    },
+    "Restlessness": {
+        "Symptom_variables": "Restlessness",
+        "Symptom explanation for users": "Restlessness"
+    },
+    "Retropulsion": {
+        "Symptom_variables": "Retropulsion",
+        "Symptom explanation for users": "Retropulsion"
+    },
+    "Rhonchus": {
+        "Symptom_variables": "Rhonchus",
+        "Symptom explanation for users": "Rhonchus"
+    },
+    "Rolling_Of_Eyes": {
+        "Symptom_variables": "Rolling_Of_Eyes",
+        "Symptom explanation for users": "Rolling of eyes"
+    },
+    "Room_Spinning": {
+        "Symptom_variables": "Room_Spinning",
+        "Symptom explanation for users": "Room seems like its spinning"
+    },
+    "Runny_Stuffy_Nose": {
+        "Symptom_variables": "Runny_Stuffy_Nose",
+        "Symptom explanation for users": "Runny/stuffy nose"
+    },
+    "Satiety_Early": {
+        "Symptom_variables": "Satiety_Early",
+        "Symptom explanation for users": "Early sateity"
+    },
+    "Scar_Tissue": {
+        "Symptom_variables": "Scar_Tissue",
+        "Symptom explanation for users": "Scar tissue"
+    },
+    "Scleral_Icterus": {
+        "Symptom_variables": "Scleral_Icterus",
+        "Symptom explanation for users": "Jaundice in eyes"
+    },
+    "Sedentary": {
+        "Symptom_variables": "Sedentary",
+        "Symptom explanation for users": "Sedentary"
+    },
+    "Seizures": {
+        "Symptom_variables": "Seizures",
+        "Symptom explanation for users": "Having seaizures"
+    },
+    "Sensory_Discomfort": {
+        "Symptom_variables": "Sensory_Discomfort",
+        "Symptom explanation for users": "Sensory discomfort"
+    },
+    "Shortness_Difficulty_Breathing": {
+        "Symptom_variables": "Shortness_Difficulty_Breathing",
+        "Symptom explanation for users": "Shortness and difficulty breathing"
+    },
+    "Side_Pain": {
+        "Symptom_variables": "Side_Pain",
+        "Symptom explanation for users": "Side pains"
+    },
+    "Sinus_Rhythm": {
+        "Symptom_variables": "Sinus_Rhythm",
+        "Symptom explanation for users": "Sinuss rhythm"
+    },
+    "Sleeplessness": {
+        "Symptom_variables": "Sleeplessness",
+        "Symptom explanation for users": "Sleeplessness"
+    },
+    "Sleepy": {
+        "Symptom_variables": "Sleepy",
+        "Symptom explanation for users": "Feeling sleepy"
+    },
+    "Slowing_Of_Urinary_Stream": {
+        "Symptom_variables": "Slowing_Of_Urinary_Stream",
+        "Symptom explanation for users": "Slow urinary strams"
+    },
+    "Sneezing": {
+        "Symptom_variables": "Sneezing",
+        "Symptom explanation for users": "Sneezing"
+    },
+    "Sniffle": {
+        "Symptom_variables": "Sniffle",
+        "Symptom explanation for users": "Always sniffling"
+    },
+    "Snore": {
+        "Symptom_variables": "Snore",
+        "Symptom explanation for users": "Always snoring "
+    },
+    "Snuffle": {
+        "Symptom_variables": "Snuffle",
+        "Symptom explanation for users": "Breathing noisely"
+    },
+    "Sore_Throat": {
+        "Symptom_variables": "Sore_Throat",
+        "Symptom explanation for users": "Sore_Throat"
+    },
+    "Sore_To_Touch": {
+        "Symptom_variables": "Sore_To_Touch",
+        "Symptom explanation for users": "Sore to touch"
+    },
+    "Spasm": {
+        "Symptom_variables": "Spasm",
+        "Symptom explanation for users": "Having spasms"
+    },
+    "Speech_Slurred": {
+        "Symptom_variables": "Speech_Slurred",
+        "Symptom explanation for users": "Slurred speech\nSpeech disorder"
+    },
+    "Spontaneous_Rupture_Of_Membranes": {
+        "Symptom_variables": "Spontaneous_Rupture_Of_Membranes",
+        "Symptom explanation for users": "Spontaneous rupture of membranes"
+    },
+    "St_Segment_Depression": {
+        "Symptom_variables": "St_Segment_Depression",
+        "Symptom explanation for users": "Segment depression"
+    },
+    "St_Segment_Elevation": {
+        "Symptom_variables": "St_Segment_Elevation",
+        "Symptom explanation for users": "Segment elevation"
+    },
+    "Stahlis_Line": {
+        "Symptom_variables": "Stahlis_Line",
+        "Symptom explanation for users": "Stahils line"
+    },
+    "Stiff_Neck": {
+        "Symptom_variables": "Stiff_Neck",
+        "Symptom explanation for users": "Stiff neck"
+    },
+    "Stiffness": {
+        "Symptom_variables": "Stiffness",
+        "Symptom explanation for users": "Stiffness"
+    },
+    "Stooling": {
+        "Symptom_variables": "Stooling",
+        "Symptom explanation for users": "Stooling"
+    },
+    "Stridor": {
+        "Symptom_variables": "Stridor",
+        "Symptom explanation for users": "Whistling sounds while breathing"
+    },
+    "Suicidal": {
+        "Symptom_variables": "Suicidal",
+        "Symptom explanation for users": "Sucidal taughts "
+    },
+    "Superimposition": {
+        "Symptom_variables": "Superimposition",
+        "Symptom explanation for users": "Superimposition"
+    },
+    "Sweating": {
+        "Symptom_variables": "Sweating",
+        "Symptom explanation for users": "Sweating"
+    },
+    "Swollen_Lymphs": {
+        "Symptom_variables": "Swollen_Lymphs",
+        "Symptom explanation for users": "Swollen lymphs"
+    },
+    "Symptom_Aggravating_Factors": {
+        "Symptom_variables": "Symptom_Aggravating_Factors",
+        "Symptom explanation for users": "Symptom aggravating factors"
+    },
+    "Syncope": {
+        "Symptom_variables": "Syncope",
+        "Symptom explanation for users": "Loss of consciousness (syncope)"
+    },
+    "Systolic_Ejection_Murmur": {
+        "Symptom_variables": "Systolic_Ejection_Murmur",
+        "Symptom explanation for users": "Systolic ejection murmur"
+    },
+    "Systolic_Murmur": {
+        "Symptom_variables": "Systolic_Murmur",
+        "Symptom explanation for users": "Systolic Murmur"
+    },
+    "T_Wave_Inverted": {
+        "Symptom_variables": "T_Wave_Inverted",
+        "Symptom explanation for users": "T Wave Inverted"
+    },
+    "Tachypnea": {
+        "Symptom_variables": "Tachypnea",
+        "Symptom explanation for users": "Rapid breathing"
+    },
+    "Terrify": {
+        "Symptom_variables": "Terrify",
+        "Symptom explanation for users": "Terrified"
+    },
+    "Thicken": {
+        "Symptom_variables": "Thicken",
+        "Symptom explanation for users": "Thicken"
+    },
+    "Tinnitus": {
+        "Symptom_variables": "Tinnitus",
+        "Symptom explanation for users": "Ringing of the ears"
+    },
+    "Titubation": {
+        "Symptom_variables": "Titubation",
+        "Symptom explanation for users": "Titubation"
+    },
+    "Transaminitis": {
+        "Symptom_variables": "Transaminitis",
+        "Symptom explanation for users": "Transaminitis"
+    },
+    "Tremor": {
+        "Symptom_variables": "Tremor",
+        "Symptom explanation for users": "Tremor "
+    },
+    "Tremor_Resting": {
+        "Symptom_variables": "Tremor_Resting",
+        "Symptom explanation for users": "Extreme muscle fatigue "
+    },
+    "Tumor_Cell_Invasion": {
+        "Symptom_variables": "Tumor_Cell_Invasion",
+        "Symptom explanation for users": "Penetration of cancer cells"
+    },
+    "Unconscious_State": {
+        "Symptom_variables": "Unconscious_State",
+        "Symptom explanation for users": "Unconscious state "
+    },
+    "Uncoordination": {
+        "Symptom_variables": "Uncoordination",
+        "Symptom explanation for users": "Uncoordination"
+    },
+    "Unhappy": {
+        "Symptom_variables": "Unhappy",
+        "Symptom explanation for users": "Unhappy"
+    },
+    "Unresponsiveness": {
+        "Symptom_variables": "Unresponsiveness",
+        "Symptom explanation for users": "Unresponsiveness"
+    },
+    "Unsteady_Gait": {
+        "Symptom_variables": "Unsteady_Gait",
+        "Symptom explanation for users": "Abnomality in walking"
+    },
+    "Unwell": {
+        "Symptom_variables": "Unwell",
+        "Symptom explanation for users": "Feeling ill"
+    },
+    "Urge_Incontinence": {
+        "Symptom_variables": "Urge_Incontinence",
+        "Symptom explanation for users": "Frequent urination"
+    },
+    "Urgency_Of_Micturition": {
+        "Symptom_variables": "Urgency_Of_Micturition",
+        "Symptom explanation for users": "Ustoppable urge to urinate"
+    },
+    "Urinary_Hesitation": {
+        "Symptom_variables": "Urinary_Hesitation",
+        "Symptom explanation for users": "Trouble urinating"
+    },
+    "Vaginal_Penile_Discharge": {
+        "Symptom_variables": "Vaginal_Penile_Discharge",
+        "Symptom explanation for users": "Pain during urination"
+    },
+    "Verbal_Auditory_Hallucinations": {
+        "Symptom_variables": "Verbal_Auditory_Hallucinations",
+        "Symptom explanation for users": "Hearing voices"
+    },
+    "Vomiting": {
+        "Symptom_variables": "Vomiting",
+        "Symptom explanation for users": "Vomiting"
+    },
+    "Weepiness": {
+        "Symptom_variables": "Weepiness",
+        "Symptom explanation for users": "Weepiness"
+    },
+    "Weight_Gain": {
+        "Symptom_variables": "Weight_Gain",
+        "Symptom explanation for users": "Weight gain"
+    },
+    "Weight_Loss": {
+        "Symptom_variables": "Weight_Loss",
+        "Symptom explanation for users": "Weight loss"
+    },
+    "Welt": {
+        "Symptom_variables": "Welt",
+        "Symptom explanation for users": "Welt"
+    },
+    "Wheelchair_Bound": {
+        "Symptom_variables": "Wheelchair_Bound",
+        "Symptom explanation for users": "Wheelchair bound"
+    },
+    "Wheezing": {
+        "Symptom_variables": "Wheezing",
+        "Symptom explanation for users": "Whistle sound when breathing"
+    },
+    "Withdraw": {
+        "Symptom_variables": "Withdraw",
+        "Symptom explanation for users": "Withdrawal "
+    },
+    "Worry": {
+        "Symptom_variables": "Worry",
+        "Symptom explanation for users": "Worrying"
+    },
+    "Yellowing": {
+        "Symptom_variables": "Yellowing",
+        "Symptom explanation for users": "Yellowing of eyes"
+    }
+}
