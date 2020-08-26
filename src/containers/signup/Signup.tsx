@@ -49,6 +49,14 @@ const Signup = (props: any) => {
       })
     }
   }
+  const handleTest = () => {
+    dispatch({
+      type: 'SET_USER',
+      payload: 'Test',
+    })
+    props.history.push('/dashboard')
+  }
+  
   useEffect(() => {
     dispatch({
       type: 'NOT_LOADING',
@@ -65,7 +73,9 @@ const Signup = (props: any) => {
         ) : (
           <div className="signup__main">
             <h1>Welcome!</h1>
-            <p>Please login to you account</p>
+            <p>
+              Please login to you account, <em onClick={handleTest}>Click here to test</em>
+            </p>
             <form>
               <label htmlFor="signup__name">Username</label>{' '}
               <input
@@ -108,8 +118,6 @@ const Signup = (props: any) => {
                 </button>
               </div>
             </div>
-            <em>Use "Username: test and Password: test" for testing</em>
-            
           </div>
         )}
       </div>

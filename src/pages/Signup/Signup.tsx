@@ -60,6 +60,13 @@ const SignupDoctor = (props: any) => {
       })
     }
   }
+  const handleTest = ()=>{
+    dispatch({
+      type: 'SET_USER',
+      payload: "Test",
+    })
+    props.history.push('/dashboard')
+  }
   useEffect(() => {
     dispatch({
       type: 'NOT_LOADING',
@@ -76,7 +83,7 @@ const SignupDoctor = (props: any) => {
         ) : (
           <div className="signupDoctor__main">
             <h1>Welcome!</h1>
-            <p>Please only doctors are allowed to signup</p>
+            <p>Please only doctors are allowed to signup. <em onClick={handleTest}>Click here to test</em></p>
             <form>
               <div className="names">
                 <div className="first">
@@ -157,15 +164,9 @@ const SignupDoctor = (props: any) => {
                   >
                     Sign up
                   </button>
-                  <button
-                    onClick={()=>{props.history.push("/sign-in")}}
-                    className={` signupDoctor__button`}
-                  >
-                    Sign in
-                  </button>
                 </div>
               </div>
-              <em>Go to the "sign in page" for testing</em>
+             
             </form>
           </div>
         )}

@@ -4,8 +4,9 @@
   flex-direction: column;
 
   em {
-    margin-top: 15px;
     color: red;
+    text-decoration: underline;
+    cursor:pointer;
   }
   img {
     width: 90%;

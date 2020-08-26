@@ -50,7 +50,7 @@ const Hamburger: React.FC = (props: any): JSX.Element => {
       <Button
         width={120}
         height={44}
-        title={`${state.currentUser ? 'DASHBOARD' : 'SIGN IN'}`}
+        title={`${state.currentUser ? 'DASHBOARD' : 'DIAGNOSE'}`}
         color="#E26777"
         handleClick={() => {
           setMenuOpen(false)

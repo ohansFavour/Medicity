@@ -69,7 +69,7 @@ const Header: React.FC = (props: any): JSX.Element => {
             <Button
               width={state.currentUser ? 120 : 100}
               height={44}
-              title={`${state.currentUser ? 'DASHBOARD' : 'SIGN IN'}`}
+              title={`${state.currentUser ? 'DASHBOARD' : 'DIAGNOSE'}`}
               color="#E26777"
               handleClick={handleSignin}
             />

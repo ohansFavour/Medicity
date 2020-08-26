@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { Route, Switch, Redirect } from 'react-router-dom'
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 // styles
@@ -12,27 +12,30 @@ import SignupDoctor from './pages/Signup/Signup'
 import SigninPage from './pages/signin/SigninPage'
 
 // context
-import { StoreContext } from './context/store'
+// import { StoreContext } from './context/store'
 
 const App: React.FC = (): JSX.Element => {
-  const { state } = useContext(StoreContext)
+  // const { state } = useContext(StoreContext)
   return (
     <Router>
       <div className="app">
         <Switch>
           <Route path="/dashboard" component={Dashboard} />
-          <Route
+          {/* <Route
             exact={true}
             path="/sign-up"
             render={() => {
               return state.currentUser ? <Redirect to="/dashboard" /> : <SignupDoctor />
             }}
-          />
-          <Route
+          /> */}
+          <Route exact={true} path="/sign-up" component={SignupDoctor} />
+          {/* <Route
             exact={true}
             path="/sign-in"
             render={() => (state.currentUser ? <Redirect to="/dashboard" /> : <SigninPage />)}
-          />
+          /> */}
+          <Route exact={true} path="/sign-in" component={SigninPage} />
+
           <Route path="/" component={Home} />
         </Switch>
       </div>
