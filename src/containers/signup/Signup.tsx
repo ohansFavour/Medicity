@@ -37,7 +37,6 @@ const Signup = (props: any) => {
       //     password: password,
       //   },
       // })
-
       dispatch({
         type: 'SET_USER',
         payload: eoru,

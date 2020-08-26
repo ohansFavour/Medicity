@@ -41,7 +41,7 @@
   }
 
   .result__main {
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 15px;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -67,6 +67,72 @@
       font-size: 0.85em;
     }
   }
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 2em;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+    content: '\2605';
+    position: absolute;
+    color: #FFDF00;
+  }
+  .rating > .picked:before,
+  .rating > .picked ~ span:before {
+    content: '\2605';
+    position: absolute;
+    color: #FFDF00;
+  }
+  .result__feedback {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    input{
+      outline:none;
+      display:flex;
+      padding:20px;
+    }
+    h3 {
+      color: #186a7b;
+      margin: 0;
+    }
+    .result__comment {
+      height: 70px;
+      border: solid 1px #186a7b;
+      border-radius: 15px;
+    }
+    .result__help {
+      span {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      margin-bottom: 6px;
+    }
+    button {
+      background: #e26777 0% 0% no-repeat padding-box;
+      border-radius: 27px;
+      color: white;
+      padding: 5px 25px;
+      font-size: 1.2em;
+      width: 100px;
+      margin-top: 25px;
+    }
+  }
 }
 @media screen and (min-width: 768px) {
   .resultPage {
@@ -74,8 +140,6 @@
     padding-top: 10px;
     margin-bottom: 0px;
     font-size: 0.9em;
-    height: 92%;
-    overflow-y: auto;
     padding-bottom: 20px;
     box-sizing: border-box;
   }

@@ -18,6 +18,7 @@ const Checkup = () => {
   const [result, setResult] = useState<any>(null)
 
   const { state, dispatch } = useContext(StoreContext)
+  const symptomEmpty = data && data.length === 0
 
   const fetchAsync = async () => {
     let url = `https://cors-anywhere.herokuapp.com/http://thehealthdome.pythonanywhere.com/?`
@@ -172,31 +173,41 @@ const Checkup = () => {
             </div>
             <div className="checkup__footer">
               {pageNumber === 7 ? (
-                <>
-                  {/* <button
-                    // onClick={() => handlePageIncrease()}
-                    style={{ cursor: 'pointer' }}
-                    disabled={isDisabled}
-                    className={`${isDisabled ? 'disabled' : ''}`}
-                  >
-                    Submit
-                  </button> */}
-                </>
+                <></>
               ) : (
                 <>
-                  {pageNumber !== 1 && (
-                    <div onClick={() => handlePageDecrease()} style={{ cursor: 'pointer' }}>
-                      <span> &lt; </span>Back
-                    </div>
+                  {pageNumber === 5 ? (
+                    <>
+                      <div onClick={() => handlePageDecrease()} style={{ cursor: 'pointer' }}>
+                        <span> &lt; </span>Back
+                      </div>
+
+                      <button
+                        onClick={() => handlePageIncrease()}
+                        style={{ cursor: 'pointer' }}
+                        disabled={symptomEmpty}
+                        className={` ${symptomEmpty ? 'disabled' : ''}`}
+                      >
+                        Next
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      {pageNumber !== 1 && (
+                        <div onClick={() => handlePageDecrease()} style={{ cursor: 'pointer' }}>
+                          <span> &lt; </span>Back
+                        </div>
+                      )}
+                      <button
+                        onClick={() => handlePageIncrease()}
+                        style={{ cursor: 'pointer' }}
+                        disabled={isDisabled}
+                        className={`${isDisabled ? 'disabled' : ''} ${!data ? 'disabled' : ''}`}
+                      >
+                        Next
+                      </button>
+                    </>
                   )}
-                  <button
-                    onClick={() => handlePageIncrease()}
-                    style={{ cursor: 'pointer' }}
-                    disabled={isDisabled}
-                    className={`${isDisabled ? 'disabled' : ''}`}
-                  >
-                    Next
-                  </button>
                 </>
               )}
             </div>
