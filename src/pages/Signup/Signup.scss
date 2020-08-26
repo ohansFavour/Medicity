@@ -2,6 +2,11 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+
+  em {
+    margin-top: 15px;
+    color: red;
+  }
   img {
     width: 90%;
     height: auto;
@@ -66,7 +71,6 @@
           border-radius: 25px;
           padding-left: 20px;
         }
-       
       }
     }
     .signupDoctor__forgot {

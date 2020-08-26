@@ -157,8 +157,15 @@ const SignupDoctor = (props: any) => {
                   >
                     Sign up
                   </button>
+                  <button
+                    onClick={()=>{props.history.push("/sign-in")}}
+                    className={` signupDoctor__button`}
+                  >
+                    Sign in
+                  </button>
                 </div>
               </div>
+              <em>Go to the "sign in page" for testing</em>
             </form>
           </div>
         )}

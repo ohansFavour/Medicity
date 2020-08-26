@@ -67,15 +67,6 @@ const AiDashboard = (props: any) => {
           <div
             className="aiDashboard__card"
             onClick={() => {
-              props.history.push('/dashboard/eye-defect')
-            }}
-          >
-            <img src={Eye} alt="eye" />
-            <span>Eye Disease Detection</span>
-          </div>
-          <div
-            className="aiDashboard__card"
-            onClick={() => {
               props.history.push('/dashboard/diabetes')
             }}
           >
@@ -109,10 +100,16 @@ const AiDashboard = (props: any) => {
             <img src={Pneumonia} alt="pneumonia" />
             <span>Pneumonia Detection</span>
           </div>
-          {/* <div className="aiDashboard__card">
-            <img src={Hypertension} alt="hypertension" />
-            <span>Hypertension Detection</span>
-          </div> */}
+          
+          <div
+            className="aiDashboard__card"
+            onClick={() => {
+              props.history.push('/dashboard/eye-defect')
+            }}
+          >
+            <img src={Eye} alt="eye" />
+            <span>Eye Disease Detection</span>
+          </div>
           <div
             className="aiDashboard__card"
             onClick={() => {

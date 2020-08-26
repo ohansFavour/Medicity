@@ -108,6 +108,8 @@ const Signup = (props: any) => {
                 </button>
               </div>
             </div>
+            <em>Use "Username: test and Password: test" for testing</em>
+            
           </div>
         )}
       </div>
