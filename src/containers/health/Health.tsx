@@ -1,5 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+import Slide from 'react-reveal/Slide'
 
 // Images
 import Practitioners from '../../assets/images/practitioners.png'
@@ -9,7 +10,6 @@ import Phonebook from '../../assets/images/smartphone.svg'
 import './Health.scss'
 
 const Health = (props: any) => {
-
   const handleOnline = () => {
     props.history.push('/online-diagnosis')
   }
@@ -27,9 +27,11 @@ const Health = (props: any) => {
           Start Checkup
         </button>
       </div>
-      <div className="health__img">
-        <img src={Practitioners} alt="medical-practioners" />
-      </div>
+      <Slide right duration={6000}>
+        <div className="health__img">
+          <img src={Practitioners} alt="medical-practioners" />
+        </div>
+      </Slide>
     </div>
   )
 }
