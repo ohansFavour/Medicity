@@ -8,6 +8,7 @@ import App from './App'
 import './index.css'
 import { StoreProvider } from './context/store'
 
+// main body
 const AppContainer = () => {
   return (
     <StoreProvider>
@@ -16,4 +17,4 @@ const AppContainer = () => {
   )
 }
 
-ReactDOM.render(<AppContainer/>, document.getElementById('root'))
+ReactDOM.render(<AppContainer />, document.getElementById('root'))
